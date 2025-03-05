@@ -1,0 +1,14 @@
+url: "https://e4s.io"
+title: "E4S - Extreme-scale Scientific Software Stack"
+description: "Curated scientific libraries and tools for advanced scientific computing applications."
+baseurl: ""
+theme: "minimal-mistakes-jekyll"
+logo: "/assets/images/e4s-logo.png"
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+repository: "E4S-Project/e4s-website"
+github_username: "E4S-Project"
