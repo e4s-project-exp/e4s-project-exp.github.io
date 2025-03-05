@@ -2,7 +2,7 @@ url: "https://e4s-project-exp.io"
 title: "E4S - Ecosystem for Science"
 description: "Curated scientific libraries and tools for advanced scientific computing applications."
 baseurl: ""
-theme: "minimal-mistakes-jekyll"
+remote_theme: chrisrhymes/bulma-clean-theme
 logo: "/assets/images/e4s-logo.jpg"
 markdown: kramdown
 plugins:
