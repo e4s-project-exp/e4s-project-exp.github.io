@@ -1,11 +1,11 @@
 ---
-layout: home
+layout: page
 title: "Extreme-scale Scientific Software Stack (E4S)"
 excerpt: "Empowering scientific computing with curated libraries and tools."
 permalink: "/"
 ---
 
-![E4S Logo](/assets/images/e4s-logo.png)
+![E4S Logo](/assets/images/e4s-logo.jpg)
 
 Welcome to **E4S (Extreme-scale Scientific Software Stack)**, your trusted source for curated, high-quality scientific libraries and tools designed for advanced computing applications.
 

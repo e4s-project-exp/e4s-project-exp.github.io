@@ -1,15 +1,24 @@
-url: "https://e4s-project-exp.io"
+# db: I assume you're planning to host this on github.io rather th
+# db: getting a custom domain just to experiment with a new site.
+url: "https://e4s-project-exp.github.io"
 title: "E4S - Ecosystem for Science"
 description: "Curated scientific libraries and tools for advanced scientific computing applications."
 baseurl: ""
-remote_theme: chrisrhymes/bulma-clean-theme
-logo: "/assets/images/e4s-logo.jpg"
-markdown: kramdown
+# db: I had problems getting your remote theme reference to work properly
+# db: I've had similar problems with other remote themes in the past
+# db: I've never root caused them.  I just switched to the non-remote version
+# db: and that works for me.
+# remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
+# db: I don't think the bulma-clean theme actually uses this
+# logo: "/assets/images/e4s-logo.jpg"
+# db: I believe this is the default, so let's not specify it
+# markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-archives
+  # - jekyll-seo-tag  # Let's keep things simple
+  # - jekyll-archives # Let's keep things simple
 repository: "e4s-project-exp/e4s-project-exp.github.io"
 repo_host: https://github.com
 
