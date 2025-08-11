@@ -11,7 +11,7 @@ gem "jekyll", "~> 4.3"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 #gem "minima", "~> 2.5"
 # gem "minimal-mistakes-jekyll"
-gem "bulma-clean-theme"         # db: Use gem for theme instead of remote 
+gem "minimal-mistakes-jekyll"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
@@ -19,7 +19,7 @@ gem "bulma-clean-theme"         # db: Use gem for theme instead of remote
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-sitemap"
-  # gem "jekyll-include-cache"    # db: Not used in _config.yml
+  gem "jekyll-include-cache"    # db: Not used in _config.yml
   # gem 'jekyll-link-attributes'  # db: Not used in _config.yml
 end
 

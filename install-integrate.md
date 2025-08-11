@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Install & Integrate"
 permalink: /install-integrate/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Get E4S"
 permalink: /get-e4s/
 ---

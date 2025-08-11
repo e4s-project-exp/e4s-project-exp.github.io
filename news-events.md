@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "News & Events"
 permalink: /news-events/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Test with E4S"
 permalink: /test-with-e4s/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Impact & Funding"
 permalink: /impact-funding/
 ---

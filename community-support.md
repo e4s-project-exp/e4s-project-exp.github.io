@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Community & Support"
 permalink: /community-support/
 ---

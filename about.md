@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: single
 title: "About E4S"
 permalink: /about/
 ---
-
-![E4S Logo](/assets/images/e4s-logo.jpg)
 
 ## What is E4S?
 E4S provides a comprehensive, curated collection of scientific libraries and tools supporting the next generation of scientific discovery.

@@ -9,7 +9,8 @@ baseurl: ""
 # db: I've never root caused them.  I just switched to the non-remote version
 # db: and that works for me.
 # remote_theme: chrisrhymes/bulma-clean-theme
-theme: bulma-clean-theme
+theme: minimal-mistakes-jekyll
+
 # db: I don't think the bulma-clean theme actually uses this
 # logo: "/assets/images/e4s-logo.jpg"
 # db: I believe this is the default, so let's not specify it
@@ -17,9 +18,36 @@ theme: bulma-clean-theme
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-include-cache
   # - jekyll-seo-tag  # Let's keep things simple
   # - jekyll-archives # Let's keep things simple
 repository: "e4s-project-exp/e4s-project-exp.github.io"
 repo_host: https://github.com
 
 github_username: "maherou"
+
+
+# email:
+
+# Many configuration items for Minimal Mistakes.
+# See https://mmistakes.github.io/minimal-mistakes/docs/configuration/ for details.
+
+#minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "air"
+
+# This subtitle is too long
+subtitle:   This is a subtitle
+name: This is a name
+
+# We need to create our own customized feed.  For now, we disable it.
+atom_feed:
+  hide: true
+
+# This is needed to generate output for future events
+future: true
+
+# Set the logo image
+#
+
+logo: /assets/images/e4s-logo.jpg
+og_image: /assets/images/e4s-logo.jpg
