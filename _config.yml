@@ -2,6 +2,7 @@
 # db: getting a custom domain just to experiment with a new site.
 url: "https://e4s-project-exp.github.io"
 title: "E4S - Ecosystem for Science"
+subtitle: "Advancing Science through Trusted Software"
 description: "Curated scientific libraries and tools for advanced scientific computing applications."
 baseurl: ""
 # db: I had problems getting your remote theme reference to work properly
@@ -35,9 +36,6 @@ github_username: "maherou"
 #minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin: "air"
 
-# This subtitle is too long
-subtitle:   This is a subtitle
-name: This is a name
 
 # We need to create our own customized feed.  For now, we disable it.
 atom_feed:

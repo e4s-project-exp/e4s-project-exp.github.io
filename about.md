@@ -2,6 +2,7 @@
 layout: single
 title: "About E4S"
 permalink: /about/
+toc: true
 ---
 
 ## What is E4S?
@@ -10,15 +11,9 @@ E4S provides a comprehensive, curated collection of scientific libraries and too
 ## Mission & Vision
 Advance scalable scientific software by providing a cohesive, tested, and supported software stack.
 
-## Participating Projects
-A growing portfolio of high-impact libraries and tools.
-
-## Roadmap
-Interactive roadmap coming soon.
-
-## Impact Metrics
-- Downloads: TBD
-- Citations: TBD
+## Learn More
+- [Introduction to E4S](/introduction/)
+- [First-time users](/firsttime/)
 
 ## Funding
 Supported by the U.S. Department of Energy.
