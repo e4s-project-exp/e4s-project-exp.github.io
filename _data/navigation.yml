@@ -1,22 +1,32 @@
 # db: Home is present by default and shouldn't be listed here.
 main: 
-  - title: About
-    url: /about/
-  - title: "Community & Support"
-    url: /community-support/
-  - title: Contact
-    url: /contact/
-  - title: Contribute
-    url: /contribute/
-  - title: Documentation
-    url: /documentation/
   - title: Get E4S
     url: /get-e4s/
-  - title: "Impact & Funding"
-    url: /impact-funding/
-  - title: "Install & Integrate"
-    url: /install-integrate/
-  - title: "News & Events"
-    url: /news-events/
-  - title: "Test with E4S"
-    url: /test-with-e4s/
+ - title: Join E4S
+    url: /join-e4s/
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+  
+# main: 
+#  - title: About
+#    url: /about/
+#  - title: "Community & Support"
+#    url: /community-support/
+#  - title: Contact
+#    url: /contact/
+#  - title: Contribute
+#    url: /contribute/
+#  - title: Documentation
+#    url: /documentation/
+#  - title: Get E4S
+#    url: /get-e4s/
+#  - title: "Impact & Funding"
+#    url: /impact-funding/
+#  - title: "Install & Integrate"
+#    url: /install-integrate/
+#  - title: "News & Events"
+#    url: /news-events/
+#  - title: "Test with E4S"
+#    url: /test-with-e4s/

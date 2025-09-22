@@ -13,7 +13,7 @@ permalink: "/"
 ---
 
 
-Welcome to **E4S**, a software **ecosystem for science**, a trusted source for curated, high-quality scientific libraries and tools designed for advanced computing applications.
+Welcome to **E4S**, a software **ecosystem for science**, a trusted source for curated, high-quality scientific libraries and tools designed for advanced computing applications and platforms.
 
 Explore how E4S can help you:
 
