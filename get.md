@@ -1,6 +1,7 @@
 ---
-lang: en
-title: E4S - Download
+layout: single
+title: "Get E4S"
+permalink: /get/
 ---
 
 ## Acquiring E4S Containers

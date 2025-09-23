@@ -1,6 +1,7 @@
 ---
-lang: en
-title: E4S - Events
+layout: single
+title: "Events"
+permalink: /events/
 ---
 
 ## Events

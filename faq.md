@@ -1,6 +1,7 @@
 ---
-lang: en
-title: E4S - FAQ
+layout: single
+title: "FAQs"
+permalink: /faq/
 ---
 
 ## FAQ

@@ -1,10 +1,17 @@
+---
+layout: single
+title: "Container Installation"
+permalink: /installation/
+---
+
 # Container installation recipes
 
 ## Docker
 
 To use the Docker image, please install Docker and pull the appropriate image from Docker Hub.
 
-```bash
+```
+bash
 # docker images
 # docker pull ecpe4s/e4s-gpu:22.02
 # docker run --gpus all -v $HOME:$HOME --rm -it ecpe4s/e4s-gpu:22.02
@@ -20,7 +27,8 @@ To use the Docker image, please install Docker and pull the appropriate image fr
 
 ## Singularity
 
-```bash
+```
+bash
 # which singularity
 # wget http://tau.uoregon.edu/ecp.simg
 # singularity exec ./ecp.simg /bin/bash --rcfile /etc/bash.bashrc
@@ -29,7 +37,8 @@ To use the Docker image, please install Docker and pull the appropriate image fr
 
 **Replacing MPI on Theta at ALCF: allocate two nodes**
 
-```bash
+```
+bash
 % qsub -A <PROJECT_ID> -t 30 -n 2 -q debug-cache-quad -I
 % /projects/ECP_SDK/tutorial/run_job.sh
 % cat /projects/ECP_SDK/tutorial/run_job.sh
@@ -43,7 +52,8 @@ aprun -n 16 -N 8 singularity exec -H $HOME   -B /projects/ECP_SDK:/projects/ECP_
 
 **Replacing MPI with system MPI on Cori at NERSC**
 
-```bash
+```
+bash
 # shifterimg -v pull docker:ecpe4s/e4s-gpu:22.02
 # shifter -E --image=ecpe4s/e4s-gpu:22.02 -- /bin/bash --rcfile /etc/bash.bashrc
 # which spack

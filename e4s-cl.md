@@ -1,6 +1,7 @@
 ---
-lang: en
-title: E4S - E4S-CL
+layout: single
+title: "E4S-CL"
+permalink: /e4s-cl/
 ---
 
 ### E4S container management tool: E4S-CL
