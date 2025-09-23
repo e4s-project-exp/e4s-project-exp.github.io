@@ -1,13 +1,13 @@
 # db: Home is present by default and shouldn't be listed here.
 main: 
-  - title: Get E4S
-    url: /get/
+ - title: Get E4S
+   url: /get/
  - title: Join E4S
-    url: /join/
-  - title: About
-    url: /about/
-  - title: Contact
-    url: /contact/
+   url: /join/
+ - title: About
+   url: /about/
+ - title: Contact
+   url: /contact/
   
 # main: 
 #  - title: About
