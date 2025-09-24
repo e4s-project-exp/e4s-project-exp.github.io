@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Join E4S"
-permalink: /contact/
+permalink: /join/
 ---
 
 # Joining E4S
