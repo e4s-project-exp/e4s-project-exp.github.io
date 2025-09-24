@@ -49,3 +49,7 @@ future: true
 
 logo: /assets/images/e4s-logo.jpg
 og_image: /assets/images/e4s-logo.jpg
+
+# Generate a sitemap.xml
+plugins:
+ - jekyll-sitemap

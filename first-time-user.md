@@ -9,7 +9,7 @@ _E4S is a trusted, ready-made software ecosystem that powers modern scientific d
 
 ### What is E4S?
 
-The Ecosystem for Scientific Software (E4S) is a collection of software packages that scientists, engineers, and researchers use to solve some of the world’s hardest problems—ranging from climate modeling, to clean energy design, to medical research.
+The Ecosystem for Scientific Software (E4S) is a collection of software packages that scientists, engineers, and researchers use to solve some of the world’s hardest problems—ranging from discovering new materials to improving the design of products we use every day.
 
 Think of E4S like a toolbox. Just as a mechanic needs wrenches, screwdrivers, and diagnostic devices, scientists need software tools to run experiments on powerful computers. Instead of building each tool from scratch, E4S gathers the most important ones, ensures they work together, and makes them easy to install and use.
 
@@ -27,9 +27,9 @@ E4S reduces this complexity by:
 ### Key Concepts to Know
 - Scientific Computing: Using computers to model, simulate, and analyze scientific problems (like predicting a hurricane or designing a new material).
 - Libraries: Pre-built sets of functions and routines that solve common problems. For example, a math library can solve equations much faster than writing the code yourself.
-- Tools: Software that supports the research process—such as compilers (which turn human-written code into machine instructions), debuggers (which find errors in code), and performance analyzers (which show how fast the program runs).
+- Tools: Software that supports the research process—such as performance analyzers (which show how fast the program runs).
 - Portability: The ability to run the same software across different computers—from a laptop to the largest supercomputer—without rewriting it.
-- Ecosystem: A collection of many software libraries and tools that are designed to work together smoothly, much like apps on a smartphone that share data and services. More broadly, ecosystem also refers to the human activities that support the production and use of the software collection.
+- Ecosystem: A collection of many software libraries and tools that are designed to work together smoothly, much like apps on a smartphone that share data and services. More broadly, ecosystem also refers to the people and activities that support the production and use of the software collection.
 
 ### What E4S Provides
 1.	**A Ready-to-Use Collection:**
@@ -44,5 +44,5 @@ E4S is continuously improved by experts and used in leading scientific projects 
 
 If you’re new to scientific computing, E4S makes it possible to focus on the science problem itself rather than on wrestling with complicated software setups. For decision-makers, E4S represents an investment in scientific productivity, reliability, and innovation.
 
-By lowering barriers to using advanced computing, E4S helps accelerate discoveries that benefit society—from cleaner energy and resilient infrastructure to medical research and national security.
+By lowering barriers to using advanced computing, E4S helps accelerate discoveries that benefit society.
 
