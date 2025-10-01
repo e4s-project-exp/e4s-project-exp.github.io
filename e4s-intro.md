@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Introduction to E4S"
-permalink: /introduction/
+permalink: /e4s-intro/
 toc: true
 ---
 

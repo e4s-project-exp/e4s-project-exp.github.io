@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "First-time Users"
-permalink: /firsttime/
+permalink: /first-time-user/
 toc: true
 ---
 

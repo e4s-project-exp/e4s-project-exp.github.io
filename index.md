@@ -23,4 +23,4 @@ Explore how E4S can help you:
 - Contribute and collaborate with a thriving community.
 - Showcase the impact of scientific software innovation.
 
-[Learn more](/about/)
+[Learn more](/learn/)

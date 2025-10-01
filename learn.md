@@ -1,8 +1,10 @@
 ---
 layout: single
-title: "About E4S"
-permalink: /about/
+title: "Learn About E4S"
+permalink: /learn/
 toc: true
+sidebar:
+  nav: "learn"
 ---
 
 ## What is E4S?
@@ -24,7 +26,7 @@ Advance scalable scientific software by providing a cohesive, tested, and suppor
 
 **E4S provides from-source builds, containers, and pre-installed versions of a broad collection of HPC and AI software packages [E4S 25.06 release announcement](news/NEWS_RELEASE_E4S_25.06.pdf).**
 
-Created for [The Extreme-scale Scientific Software Stack (E4S) Project](https://e4s-project.github.io) by [Michael A. Heroux](https://maherou.github.io/)
+Created for [The E4S Project](https://e4s-project.github.io) by [Michael A. Heroux](https://maherou.github.io/)
 
 Copyright © E4S a Series of LF Projects, LLC, For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
 

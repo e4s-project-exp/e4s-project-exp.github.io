@@ -5,23 +5,31 @@ permalink: /introlinearsolvers/
 toc: true
 ---
 
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']],
+    processEscapes: true
+  }
+};
+</script>
+
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
 ## Introduction: What is a “linear equation solver”?
 
-At its core, a *linear system* or *linear equation problem* is:
+A *linear system* or *linear equation problem* is often expressed using the following notation:
 
-\[
-A\,x = b,
-\]
+$$Ax = b,$$
 
 where
 
-- \(A\) is a (usually square) matrix,
-- \(x\) is the vector of unknowns we wish to compute,
-- \(b\) is a known right-hand side vector.
+- $A$ is a (usually square) matrix,
+- $x$ is the vector of unknowns we wish to compute,
+- $b$ is a known right-hand side vector.
 
 Many numerical simulations—e.g. finite element / finite difference discretizations of PDEs—lead to large linear systems of this form (or closely related variants, such as with multiple right-hand sides or least squares versions). A *linear equation solver* is an algorithm (or library of algorithms) that takes $A$ and $b$ and produces $x$ (or reports that no good solution exists) efficiently, reliably, and (in HPC contexts) in parallel or on accelerators.
 
