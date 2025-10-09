@@ -1,0 +1,73 @@
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.backstretch.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/retina.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+
+<script>
+function format(d) {
+  return "<div align=left>" + atob(d.html_blob) + "</div>";
+}
+
+$(document).ready(function() {
+  var table = $('#example').DataTable({
+    "ajax": "./DocPortal.yml",
+    "columns": [
+      {
+        "className": 'details-control',
+        "orderable": false,
+        "data": null,
+        "defaultContent": ''
+      },
+      { "data": "name" },
+      { "data": "area" },
+      { "data": "description" },
+      { "data": "last_updated" }
+    ],
+    "order": [[1, 'asc']],
+    "language": {
+      "emptyTable": "Loading..."
+    }
+  });
+
+  $('#example tbody').on('click', 'td.details-control', function() {
+    var tr = $(this).closest('tr');
+    var row = table.row(tr);
+    if (row.child.isShown()) {
+      row.child.hide();
+      tr.removeClass('shown');
+    } else {
+      row.child(format(row.data())).show();
+      tr.addClass('shown');
+    }
+  });
+
+  // Handle ?search= query param
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+  const searchParam = getQueryParam('search');
+  if (searchParam) {
+    table.search(searchParam).draw();
+    table.one('draw', function() {
+      const rowIndexes = table.rows({ search: 'applied' }).indexes().toArray();
+      const targetRowIndex = rowIndexes.find(index => {
+        const rowData = table.row(index).data();
+        return rowData && rowData.name === searchParam;
+      });
+      if (targetRowIndex !== undefined) {
+        const tr = $(table.row(targetRowIndex).node());
+        table.row(targetRowIndex).child(format(table.row(targetRowIndex).data())).show();
+        tr.addClass('shown');
+        $('html, body').animate({
+          scrollTop: tr.offset().top - 100
+        }, 1000);
+      }
+    });
+  }
+});
+</script>

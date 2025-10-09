@@ -1,4 +1,4 @@
-Provide an introduction to the functional domains supported by E4S libraries and tools.  Use https:/e4s.io as a resource for obtaining details.
+Provide an introduction to the product families supported by E4S libraries and tools.  Use https:/e4s.io as a resource for obtaining details.
 
 The primary domains are:
 1. Programming systems and tools.  Products include compilers (the LLVM stack) and portability layers like Kokkos.
@@ -8,7 +8,7 @@ The primary domains are:
 5. AI libraries and tools.  Products include PyTorch, Tensorflow, and Horovod.
 6. Infrastructure libraries and tools. Products include Spack, containers, and cloud environments.
 
-First produce an introductory paragraph that describes how functional domains are meaningful for supporting teams that use each other's libraries and tools in a cohesive way and learn about algorithmic and software advances together. Also note that, while E4S is the softwae distribution platform, functional domains have traditionally existed to facilitate effective and efficient development of compatible software components.
+First produce an introductory paragraph that describes how product families are meaningful for supporting teams that use each other's libraries and tools in a cohesive way and learn about algorithmic and software advances together. Also note that, while E4S is the softwae distribution platform, product families have traditionally existed to facilitate effective and efficient development of compatible software components.
 
 After the introduction, for each domain, provide a brief overview of the domain, the kinds of libraries and tools that are in the domain, and the kinds of application needs each domain addresses.
 
@@ -18,7 +18,7 @@ Generate this content as a markdown file with appropriate headings and subheadin
 
 ---
 layout: single
-title: "Overview of E4S Functional Domains"
-permalink: /functionaldomains/
+title: "Overview of E4S product families"
+permalink: /product-families/
 toc: true
 ---

@@ -12,10 +12,10 @@ main:
 learn: 
  - title: "E4S Introduction"
    url: /e4s-intro/
- - title: "First-Time User"  
-   url: /first-time-user/
- - title: "E4S Functional Domains"
-   url: /functional-domains/
+ - title: "First-Time Users"  
+   url: /first-time-users/
+ - title: "E4S Product Families"
+   url: /product-families/
  - title: "Math Libraries"
    children:
     - title: "E4S Linear Solvers Introduction"

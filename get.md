@@ -51,15 +51,9 @@ from Dockerhub:
 
 ### AWS EC2 Image
 
-The E4S 25.06 release is also available on [AWS](http://aws.amazon.com/)
-as an EC2 AMI with ID ami-0e752117cfa13cb9b in the US-West-2 (Oregon)
-region.
+The E4S 25.06 release is also available on [AWS](http://aws.amazon.com/) as an EC2 AMI with ID ami-0e752117cfa13cb9b in the US-West-2 (Oregon) region.
 
-Created for [The Extreme-scale Scientific Software Stack (E4S)
-Project](https://e4s-project.github.io/) by [Michael A.
-Heroux](https://maherou.github.io/)
-
-[Attribution](https://e4s-project.github.io/credit.html)
+Created for [The E4S Project](https://e4s-project.github.io/) by [Michael A. Heroux](https://maherou.github.io/)
 
 Copyright © E4S a Series of LF Projects, LLC\
 For web site terms of use, trademark policy and other project policies

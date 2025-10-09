@@ -16,6 +16,7 @@ Advance scalable scientific software by providing a cohesive, tested, and suppor
 ## Learn More
 - [Introduction to E4S](/introduction/)
 - [First-time users](/firsttime/)
+- [Product Documentation Portal](/DocPortal/)
 
 
 # E4S: An HPC-AI Software Ecosystem for Science
