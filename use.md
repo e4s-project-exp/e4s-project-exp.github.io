@@ -5,8 +5,6 @@ permalink: /use/
 
 ---
 
-# Using E4S
-
 E4S offers multiple methods for deploying its comprehensive collection of HPC and AI software packages. Below is an overview of these deployment options. Additional documentation is available [here](documentation.html).
 
 ## From-Source Builds

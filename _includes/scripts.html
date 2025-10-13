@@ -1,11 +1,14 @@
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.backstretch.min.js"></script>
-<script src="assets/js/wow.min.js"></script>
-<script src="assets/js/retina.min.js"></script>
-<script src="assets/js/scripts.js"></script>
+<!-- jQuery (required) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+<!-- DataTables (your table logic depends on this) -->
 <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+
+<link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
 <script>
 function format(d) {
@@ -14,7 +17,7 @@ function format(d) {
 
 $(document).ready(function() {
   var table = $('#example').DataTable({
-    "ajax": "/assets/data/DocPortal.yml",
+    "ajax": "/assets/data/docportal.yml",
     "columns": [
       {
         "className": 'details-control',

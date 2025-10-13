@@ -5,7 +5,7 @@ permalink: /first-time-users/
 toc: true
 ---
 
-_E4S is a trusted, ready-made software ecosystem that powers modern scientific discovery._
+_**E4S is a trusted, ready-made software ecosystem that powers modern scientific discovery.**_
 
 ### What is E4S?
 

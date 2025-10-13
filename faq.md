@@ -4,8 +4,6 @@ title: "FAQs"
 permalink: /faq/
 ---
 
-## FAQ
-
 ### What is the primary value proposition of E4S?
 
 E4S exists to reduce barriers for testing, distributing and using open

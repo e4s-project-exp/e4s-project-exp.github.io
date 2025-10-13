@@ -4,7 +4,7 @@ title: "Contact"
 permalink: /contact/
 ---
 
-# E4S: An HPC-AI Software Ecosystem for Science
+## E4S: An HPC-AI Software Ecosystem for Science
 
 E4S represents a growing community of HPC software products. Please
 [contact us](contact.html) if you would like your product to be a part

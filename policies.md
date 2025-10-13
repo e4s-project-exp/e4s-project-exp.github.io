@@ -1,10 +1,8 @@
 ---
 layout: single
-title: "E4S Policies"
+title: "E4S Community Policies"
 permalink: /policies/
 ---
-
-# E4S Community Policies
 
 **Version 1**
 

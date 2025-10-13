@@ -4,8 +4,6 @@ title: "Events"
 permalink: /events/
 ---
 
-## Events
-
 -   [AMD Tools Workshop at U. Oregon](https://www.cs.uoregon.edu/AMD-event-2025/) February 11-13, 2025.
 -   [Performance Evaluation of GPU accelerated HPC and AI applications using HPCToolkit, TAU, and ParaTools Pro for E4S(TM)](https://energyhpc2025.sched.com/event/1svoD/performance-evaluation-of-gpu-accelerated-hpc-and-ai-applications-using-hpctoolkit-tau-and-paratools-pro-for-e4stm), at the [Rice Energy Conference](https://www.energyhpc.rice.edu), February 27, 2025.
 -   [SC24 Tutorial: Using Containers to Accelerate HPC](https://sc24.conference-program.com/presentation/?id=tut110&sess=sess405), at the [Supercomputing 2024](https://sc24.supercomputing.org), November 18, 2024.

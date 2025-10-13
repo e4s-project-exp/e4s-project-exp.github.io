@@ -14,9 +14,9 @@ E4S provides a comprehensive, curated collection of scientific libraries and too
 Advance scalable scientific software by providing a cohesive, tested, and supported software stack.
 
 ## Learn More
-- [Introduction to E4S](/introduction/)
-- [First-time users](/firsttime/)
-- [Product Documentation Portal](/DocPortal/)
+- [Introduction to E4S](/e4s-intro/)
+- [First-time users](/first-time-users/)
+- [Product Documentation Portal](/docportal/)
 
 
 # E4S: An HPC-AI Software Ecosystem for Science
