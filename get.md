@@ -1,57 +1,22 @@
 ---
 layout: single
-title: "Get E4S"
+title: "Get E4S Products"
 permalink: /get/
+classes: wide
 ---
 
-## Acquiring E4S Containers
+## Introduction
 
-The current E4S container offerings include Docker and Singularity
-images capable of running on X86_64, PPC64LE, and AARCH64 architectures.
-Our full E4S Release images are based on Ubuntu 22.04. In addition to
-offering a full E4S image containing a comprehensive selection of E4S
-software released on a bi-annual cycle, we also offer a set of minimal
-base images suitable for use in CI pipelines.
+E4S products are accessable in many ways:
+1. Each product is directly installable using Spack.
+1. E4S has its own Spack scripts that install the full collection of products that are part of E4S.  This script can be copied and pruned to suit your needs.
+1. E4S is available in containers on AWS and Google Cloud environments.
+1. E4S is available from a variety of containers including several minimal base containers that enable to you to establish a base image and install compatible versions of the products you want to use.
 
-Docker images are available on the [E4S Docker
-Hub](https://hub.docker.com/u/ecpe4s).
+In all cases, products benefit from part of E4S by participating in the integration and testing support that E4S provides.  Even when using an E4S-supported product independent of E4S, you benefit from the portability testing and version compatibility that E4S efforts enhance.
 
-Please see the [E4S 25.06 Release
-Notes](https://oaciss.uoregon.edu/e4s/talks/E4S_25.06.pdf).
-
-### Container Releases
-
--   [Docker Downloads - CPU only](https://hub.docker.com/r/ecpe4s/e4s-cpu/tags)
--   [Docker Downloads - CUDA](https://hub.docker.com/r/ecpe4s/e4s-cuda/tags)
--   [Docker Downloads - ROCm](https://hub.docker.com/r/ecpe4s/e4s-rocm/tags)
--   [Docker Downloads - OneAPI](https://hub.docker.com/r/ecpe4s/e4s-oneapi/tags)
-
-### From source with Spack
-
-Spack contains packages for all of the products listed in the E4S 25.06
-Full Release category. General instructions for building software with
-Spack can be found at the [Spack
-website](https://spack.readthedocs.io/en/latest/).
-
-### Note on Container Images
-
-Container images contain binary versions of the Full Release packages
-listed above. Full-featured GPU-enabled container images are available
-from Dockerhub:
-```
-    # docker pull ecpe4s/e4s-cuda:25.06
-    # docker pull ecpe4s/e4s-rocm:25.06
-    # docker pull ecpe4s/e4s-oneapi:25.06
-    # docker pull ecpe4s/e4s-cpu:25.06
-```
-### E4S Facility Deployment
-
-- [NERSC](https://docs.nersc.gov/applications/e4s/)
-- [OLCF](https://docs.olcf.ornl.gov/software/e4s.html)
-
-### AWS EC2 Image
-
-The E4S 25.06 release is also available on [AWS](http://aws.amazon.com/) as an EC2 AMI with ID ami-0e752117cfa13cb9b in the US-West-2 (Oregon) region.
+- [Install E4S products using Spack](/spack-install)
+- [Use E4S containers](/download)
 
 Created for [The E4S Project](https://e4s-project.github.io/) by [Michael A. Heroux](https://maherou.github.io/)
 
