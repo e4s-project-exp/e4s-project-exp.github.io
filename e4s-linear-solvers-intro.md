@@ -3,6 +3,8 @@ layout: single
 title: "Intro to Linear Equation Solvers in E4S"
 permalink: /e4s-linear-solvers-intro/
 toc: true
+sidebar:
+  nav: "productfamiliesmenu"
 ---
 
 <script>

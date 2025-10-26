@@ -2,6 +2,8 @@
 layout: single
 title: "Events"
 permalink: /events/
+sidebar:
+  nav: "aboutmenu"
 ---
 
 -   [AMD Tools Workshop at U. Oregon](https://www.cs.uoregon.edu/AMD-event-2025/) February 11-13, 2025.

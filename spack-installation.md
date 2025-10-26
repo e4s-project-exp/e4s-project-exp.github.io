@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "Finding and installing products using Spack"
-permalink: /spack-install/
-classes: wide
+permalink: /spack-installation/
+sidebar:
+  nav: "usemenu"
 ---
 
 # Introduction

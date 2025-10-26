@@ -2,6 +2,7 @@
 layout: single
 title: "Join E4S"
 permalink: /join/
+classes: wide
 ---
 
 

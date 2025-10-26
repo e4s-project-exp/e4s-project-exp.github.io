@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Learn About E4S"
-permalink: /learn/
-toc: true
+title: "About E4S"
+classes: wide
+permalink: /about/
 sidebar:
-  nav: "learn"
+  nav: "aboutmenu"
 ---
 
 ## What is E4S?

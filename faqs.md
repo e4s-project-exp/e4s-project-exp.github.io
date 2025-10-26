@@ -1,7 +1,9 @@
 ---
 layout: single
-title: "FAQs"
-permalink: /faq/
+title: "E4S FAQs"
+permalink: /faqs/
+sidebar:
+  nav: "aboutmenu"
 ---
 
 ### What is the primary value proposition of E4S?

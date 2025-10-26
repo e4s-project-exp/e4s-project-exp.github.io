@@ -2,7 +2,8 @@
 layout: single
 title: Using E4S
 permalink: /use/
-
+sidebar:
+  nav: "usemenu"
 ---
 
 E4S offers multiple methods for deploying its comprehensive collection of HPC and AI software packages. Below is an overview of these deployment options. Additional documentation is available [here](documentation.html).

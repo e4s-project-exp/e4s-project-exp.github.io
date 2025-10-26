@@ -1,9 +1,9 @@
 # db: I assume you're planning to host this on github.io rather th
 # db: getting a custom domain just to experiment with a new site.
 url: "https://e4s-project-exp.github.io"
-title: "E4S - Ecosystem for Science"
+title: "E4S - An HPC-AI Software Ecosystem for Science"
 subtitle: "Advancing Science through Trusted Software"
-description: "Curated scientific libraries and tools for advanced scientific computing applications."
+description: "Curated HPC-AI scientific libraries and tools for advanced scientific computing applications."
 baseurl: ""
 # db: I had problems getting your remote theme reference to work properly
 # db: I've had similar problems with other remote themes in the past

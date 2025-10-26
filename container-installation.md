@@ -1,7 +1,9 @@
 ---
 layout: single
-title: "Container Installation"
-permalink: /installation/
+title: "E4S Container Installation"
+permalink: /container-installation/
+sidebar:
+  nav: "usemenu"
 ---
 
 # Container installation recipes

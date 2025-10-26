@@ -2,6 +2,8 @@
 layout: single
 title: "E4S-CL"
 permalink: /e4s-cl/
+sidebar:
+  nav: "usemenu"
 ---
 
 ### E4S container management tool: E4S-CL

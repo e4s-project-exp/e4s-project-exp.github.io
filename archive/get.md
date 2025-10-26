@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Get E4S Products"
+title: "Use E4S Products"
 permalink: /get/
 classes: wide
 ---

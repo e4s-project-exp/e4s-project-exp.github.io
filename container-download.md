@@ -1,7 +1,9 @@
 ---
 layout: single
-title: "Download E4S"
-permalink: /download/
+title: "E4S Container Download"
+permalink: /container-download/
+sidebar:
+  nav: "usemenu"
 ---
 
 
@@ -43,7 +45,7 @@ Please see the [E4S 25.06 Release Notes](https://oaciss.uoregon.edu/e4s/talks/E4
 
 Container images contain binary versions of the Full Release packages listed above. Full-featured GPU-enabled container images are available from Dockerhub:
 
-```
+```bash
 # docker pull ecpe4s/e4s-cuda:25.06
 # docker pull ecpe4s/e4s-rocm:25.06
 # docker pull ecpe4s/e4s-oneapi:25.06

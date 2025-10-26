@@ -2,14 +2,21 @@
 layout: single
 title: "Documentation"
 permalink: /documentation/
+sidebar:
+  nav: "usemenu"
 ---
 
-# Extreme-scale Scientific Software Stack (E4S)
+## Documenation Resources
 
-## version 25.06
+### E4S Products Documentation Portal
 
-E4S
-[v25.06](https://github.com/E4S-Project/e4s/tree/master/environments/25.06), includes more than 120 HPC-AI products that are commonly used by scientific applications.
+The E4S "DocPortal" provides a navigable, interactive portal to product documentation.  The portal provides a searchable and sortable table of all primary E4S products.  The table contains information about each product, what [product family](/product-families/) it belongs to, timestamps on documentation updates, a brief summary of each product and a link to the product website.
+
+[Go to the E4S DocPortal](/docportal/).
+
+### E4S Version 25.06 Resources
+
+[E4S v25.06](https://github.com/E4S-Project/e4s/tree/master/environments/25.06), includes more than 120 HPC-AI products that are commonly used by scientific applications.
 
 **[E4S ReadTheDocs: Full Documentation](https://e4s.readthedocs.io/en/latest/)**
 

@@ -1,102 +1,61 @@
 # db: Home is present by default and shouldn't be listed here.
 main: 
- - title: Get E4S
-   url: /get/
+ - title: Use E4S
+   url: /use/
  - title: Join E4S
    url: /join/
- - title: Learn
-   url: /learn/
+ - title: About
+   url: /about/
  - title: Contact
    url: /contact/
   
-learn: 
+aboutmenu:
  - title: "E4S Introduction"
    url: /e4s-intro/
- - title: "First-Time Users"  
+ - title: "E4S First-Time Users"  
    url: /first-time-users/
  - title: "E4S Product Families"
    url: /product-families/
- - title: "Math Libraries"
-   children:
-    - title: "E4S Linear Solvers Introduction"
-      url: /e4s-linear-solvers-intro/
-    - title: "E4S Non-linear Solvers Libraries Introduction"
-      url: /e4s-nonlinear-solvers-intro/
-    - title: "E4S Optimization Libraries Introduction"
-      url: /e4s-optimization-intro/
-    - title: "E4S Eigenvalue Solvers Libraries Introduction"
-      url: /e4s-eigenvalue-solvers-intro/
-    - title: "E4S Fast Fourier Transform Libraries Introduction"
-      url: /e4s-fft-intro/
-    - title: "E4S Interpolation & Approximation Libraries Introduction" 
-      url: /e4s-interpolation-intro/
- - title: "I/O & Data Management" 
-   children:
-    - title: "E4S I/O Libraries Introduction"
-      url: /e4s-io-intro/
-    - title: "E4S Data Management Libraries Introduction"
-      url: /e4s-data-management-intro/ 
- - title: "Performance & Profiling"
-   children:
-     - title: "E4S Performance Libraries Introduction"
-       url: /e4s-performance-intro/
-     - title: "E4S Profiling Libraries Introduction"
-       url: /e4s-profiling-intro/
- - title: "Visualization & Analysis"
-   children:
-     - title: "E4S Visualization Libraries Introduction"
-       url: /e4s-visualization-intro/
-     - title: "E4S Analysis Libraries Introduction"
-       url: /e4s-analysis-intro/
- - title: "AI & Machine Learning"
-   children:
-     - title: "E4S AI & Machine Learning Libraries Introduction"
-       url: /e4s-ai-ml-intro/
- - title: "Domain-Specific Applications"
-   children:
-     - title: "E4S Domain-Specific Applications Introduction"
-       url: /e4s-domain-specific-apps-intro/
- - title: "Development & Deployment Tools"
-   children:
-     - title: "E4S Development Tools Introduction"
-       url: /e4s-development-tools-intro/
-     - title: "E4S Deployment Tools Introduction"
-       url: /e4s-deployment-tools-intro/
- - title: "Getting Started with E4S"
-   url: /get/
+ - title: "E4S FAQs"
+   url: /faqs/
  - title: "E4S News & Events"
    url: /news/
- - title: "E4S Community & Support"
-   url: /community-support/
+
+usemenu:
  - title: "E4S Documentation"
    url: /documentation/
- - title: "E4S Impact & Funding"
-   url: /impact-funding/
- - title: "E4S Install & Integrate"
-   url: /install-integrate/
- - title: "E4S Test with E4S"
+ - title: "E4S Spack Installation"
+   url: /spack-installation/
+ - title: "E4S Container Download"
+   url: /container-download/
+ - title: "E4S Container Installation"
+   url: /container-installation/
+ - title: "Test with E4S"
    url: /test-with-e4s/ 
+ - title: "E4S Container Launch"
+   url: /e4s-cl/
 
-    
+productfamiliesmenu:
+ - title: "Programming Systems"
+   url: /programming-systems/
+ - title: "Performance Tools"
+   url: /e4s-perf-tools/
+ - title: "Math Libraries"
+   url: /math-libs/
+ - title: "Data and Visualization" 
+   url: /e4s-dav/
+ - title: "AI & Machine Learning"
+   url: /e4s-ai-ml/
+ - title: "Infrastructure"
+   url: /e4s-infrastructure/
 
-# main: 
-#  - title: About
-#    url: /about/
-#  - title: "Community & Support"
-#    url: /community-support/
-#  - title: Contact
-#    url: /contact/
-#  - title: Contribute
-#    url: /contribute/
-#  - title: Documentation
-#    url: /documentation/
-#  - title: Get E4S
-#    url: /get-e4s/
-#  - title: "Impact & Funding"
-#    url: /impact-funding/
-#  - title: "Install & Integrate"
-#    url: /install-integrate/
-#  - title: "News & Events"
-#    url: /news-events/
-#  - title: "Test with E4S"
-#    url: /test-with-e4s/
+mathlibsmenu:
+ - title: "BLAS & LAPACK"
+   url: /blas-lapack/
+ - title: "FFT Libraries"
+   url: /fft-libraries/
+ - title: "Linear Solvers"
+   url: /linear-solvers/
+ - title: "Optimization Libraries"
+   url: /optimization-libraries/
+ 

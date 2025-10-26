@@ -15,7 +15,7 @@ permalink: "/"
 
 Welcome to **E4S**, a software **ecosystem for science**, a trusted source for curated, high-quality scientific libraries and tools designed for advanced computing applications and platforms.
 
-**4S is a community effort to provide and support an open-source software ecosystem for science**. E4S provides a **curated collection of scientific libraries and tools (packages) that form the foundation for hundreds of the world's most advanced scientific applications.**
+**E4S is a community effort to provide and support an open-source software ecosystem for science**. E4S provides a **curated collection of scientific libraries and tools (packages) that form the foundation for hundreds of the world's most advanced scientific applications.**
                             
 **E4S packages support developing, deploying and running scientific applications on high-performance computing (HPC) and AI platforms** sponsored by the **US Department of Energy (DOE) Office of Advanced Scientific Computing Research**.  E4S is also used as a foundation for applications on leadership-class computing systems at the **US Department of Defense, US National Science Foundation, and other federal agencies.**  It is used on numerous high-performance computing systems at universities and at collaborating international organizations.  
  

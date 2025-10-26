@@ -2,7 +2,8 @@
 layout: single
 title: "Introduction to E4S"
 permalink: /e4s-intro/
-toc: true
+sidebar:
+  nav: "aboutmenu"
 ---
 
 _**E4S turns expensive supercomputers into powerful engines for discovery by giving scientists the software ecosystem they need.**_
@@ -34,3 +35,15 @@ E4S provides the shared toolkit of reliable instruments that every scientific te
 
 Scientific challenges—clean energy, climate resilience, national security, advanced manufacturing—depend on the ability to simulate complex systems on the world’s fastest computers.
 E4S makes these computers usable, productive, and accessible. With sustained investment, the U.S. preserves investments in efficiency, talent, and leadership in science and technology.
+
+### How to Access E4S Products
+E4S products are accessable in many ways:
+1. Each product is directly installable using Spack.
+1. E4S has its own Spack scripts that install the full collection of products that are part of E4S.  This script can be copied and pruned to suit your needs.
+1. E4S is available in containers on AWS and Google Cloud environments.
+1. E4S is available from a variety of containers including several minimal base containers that enable to you to establish a base image and install compatible versions of the products you want to use.
+
+In all cases, products benefit from part of E4S by participating in the integration and testing support that E4S provides.  Even when using an E4S-supported product independent of E4S, you benefit from the portability testing and version compatibility that E4S efforts enhance.
+
+- [Install E4S products using Spack](/spack-install)
+- [Use E4S containers](/download)
