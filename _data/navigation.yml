@@ -37,11 +37,11 @@ usemenu:
 
 productfamiliesmenu:
  - title: "Programming Systems"
-   url: /programming-systems/
+   url: /e4s-programming-systems/
  - title: "Performance Tools"
    url: /e4s-perf-tools/
  - title: "Math Libraries"
-   url: /math-libs/
+   url: /e4s-math-libs/
  - title: "Data and Visualization" 
    url: /e4s-dav/
  - title: "AI & Machine Learning"

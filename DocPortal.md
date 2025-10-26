@@ -1,14 +1,16 @@
 ---
-title: "E4S Packages"
+title: "E4S DocPortal"
 layout: single
 classes: wide
 permalink: /docportal/
 ---
 
+The E4S Product Documentation Portal (DocPortal) provides a convenient searchable and sortable table that provides per-product information for all primary E4S products.
+
+
 <div class="features-container section-container">
   <div class="container">
     <div class="col-sm-12 features section-description wow fadeIn">
-      <h2>E4S Packages</h2>
       <hr>
       <table id="example" class="display" style="width:100%">
         <thead>
@@ -38,7 +40,6 @@ permalink: /docportal/
   <div class="container">
     Created for <a href="https://e4s-project.github.io">The E4S Project</a> by
     <a href="https://maherou.github.io/">Michael A. Heroux</a><br>
-    <a href="credit.html">Attribution</a> – Derived from a design by Quentin Petit<br>
     Copyright © E4S a Series of LF Projects
   </div>
 </footer>
