@@ -9,8 +9,7 @@ sidebar:
 
 **Version 1**
 
-The [*Extreme-scale Scientific Software
-Stack*](https://e4s-project.github.io/) (E4S) and its related SDKs are light-weight organizational elements intended to enhance collaboration and coordination across independently-developed products.
+[E4S](https://e4s-project.github.io/) and its related [product families](/product-families/) are light-weight organizational elements intended to enhance collaboration and coordination across independently-developed products.
 
 ***E4S Membership Criteria***
 

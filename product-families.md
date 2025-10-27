@@ -30,8 +30,8 @@ E4S does more than simply collect software—it actively **curates, integrates, 
 - **Version compatibility assurance**: Each E4S release is a curated snapshot where dependency versions are chosen to maximize interoperability and minimize "breaking changes" across libraries. Users can upgrade more confidently knowing that cross-product regressions have been vetted. 
 - **Binary caching and container delivery**: By providing prebuilt binaries and containers, E4S reduces build burden and helps users adopt consistent, tested configurations more easily. 
 - **Continuous integration infrastructure**: E4S runs many CI jobs (across many platforms and architectures) to catch regressions and incompatibilities early in the development cycle.  
-- **Interoperability SDK / xSDK coordination**: E4S works with software development kits (notably the xSDK) to promote cross-library interface standards, common policies, and cooperative evolution across domains.  
+- **Interoperability coordination**: E4S works with [product family](/product-families/) teams to promote cross-library interface standards, common policies, and cooperative evolution across domains.  
 
-In effect, E4S acts as a stabilizing backbone: by continuously validating and pruning the combinatorial explosion of library interactions, it enables application teams to adopt cutting-edge capabilities across multiple domains (e.g. new solver algorithms, new profiling tools, AI modules) without having to individually integrate and test every possible combination themselves.
+In effect, E4S acts as a stabilizing backbone: by continuously validating and pruning the large combination of library interactions, it enables application teams to adopt cutting-edge capabilities across multiple domains (e.g. new solver algorithms, new profiling tools, AI modules) without having to individually integrate and test every possible combination themselves.
 
 Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.

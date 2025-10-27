@@ -111,7 +111,7 @@ In HPC settings, the trade is often: **direct** methods are more robust for dens
 
 ## E4S math library landscape & solver capabilities
 
-Below is a summary (as of the time of writing) of representative E4S (or ECP / xSDK) math libraries, and what they provide in terms of dense vs sparse, direct vs iterative solver capabilities.
+Below is a summary (as of the time of writing) of representative E4S math libraries, and what they provide in terms of dense vs sparse, direct vs iterative solver capabilities.
 
 | Library / Package | Dense linear algebra support | Sparse linear algebra support | Direct solver support | Iterative solver / preconditioners | Notes / remarks |
 |---|---|---|---|---|---|
