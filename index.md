@@ -7,7 +7,7 @@ classes: wide
 header:
 #   overlay_color: "#000"
 #  overlay_filter: "0.60"
-  overlay_filter: rgba(6, 48, 64, 0.75) # Same color as "air" skin footer
+  overlay_filter: rgba(0, 146, 202, 0.75) # Same color as "air" skin footer
   overlay_image: /assets/images/e4s-logo.jpg
 permalink: "/"
 ---
