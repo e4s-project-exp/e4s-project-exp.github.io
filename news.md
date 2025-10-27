@@ -2,6 +2,7 @@
 layout: single
 title: "Events"
 permalink: /events/
+classes: wide
 sidebar:
   nav: "aboutmenu"
 ---

@@ -2,6 +2,7 @@
 layout: single
 title: "E4S FAQs"
 permalink: /faqs/
+classes: wide
 sidebar:
   nav: "aboutmenu"
 ---

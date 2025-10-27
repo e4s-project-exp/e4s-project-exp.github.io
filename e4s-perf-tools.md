@@ -2,6 +2,7 @@
 layout: single
 title: "Performance Tools"
 permalink: /e4s-perf-tools/
+classes: wide
 sidebar:
   nav: "productfamiliesmenu"
 ---

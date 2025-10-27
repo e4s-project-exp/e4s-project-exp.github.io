@@ -2,6 +2,7 @@
 layout: single
 title: "Math Libraries"
 permalink: /e4s-math-libs/
+classes: wide
 sidebar:
   nav: "productfamiliesmenu"
 ---

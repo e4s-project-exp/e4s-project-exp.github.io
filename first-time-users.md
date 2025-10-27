@@ -2,7 +2,7 @@
 layout: single
 title: "First-time Users"
 permalink: /first-time-users/
-toc: true
+classes: wide
 sidebar:
   nav: "aboutmenu"
 ---

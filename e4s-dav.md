@@ -2,6 +2,7 @@
 layout: single
 title: "Data & Visualization"
 permalink: /e4s-dav/
+classes: wide
 sidebar:
   nav: "productfamiliesmenu"
 ---

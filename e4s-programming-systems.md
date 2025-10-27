@@ -2,6 +2,7 @@
 layout: single
 title: "Programming Systems & Tools"
 permalink: /e4s-programming-systems/
+classes: wide
 sidebar:
   nav: "productfamiliesmenu"
 ---

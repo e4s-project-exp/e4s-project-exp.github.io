@@ -2,6 +2,7 @@
 layout: single
 title: "Infrastructure"
 permalink: /e4s-infrastructure/
+classes: wide
 sidebar:
   nav: "productfamiliesmenu"
 ---

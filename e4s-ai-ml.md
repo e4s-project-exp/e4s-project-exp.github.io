@@ -2,6 +2,7 @@
 layout: single
 title: "AI & Machine Learning"
 permalink: /e4s-ai-ml/
+classes: wide
 sidebar:
   nav: "productfamiliesmenu"
 ---

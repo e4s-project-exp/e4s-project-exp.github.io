@@ -9,6 +9,18 @@ main:
  - title: Contact Us
    url: /contact/
   
+joinmenu:
+ - title: "Overview - Join E4S"
+   url: /join/
+ - title: "E4S Contribution Guide"
+   url: /contribution-guide/
+ - title: "E4S Community Policies"
+   url: /policies/
+ - title: "E4S Development Process"
+   url: /development-process/
+ - title: "E4S Mailing Lists"
+   url: /mailing-lists/
+
 aboutmenu:
  - title: "Overview - About E4S"
    url: /about/

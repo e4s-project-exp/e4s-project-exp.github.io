@@ -2,6 +2,9 @@
 layout: single
 title: "E4S Community Policies"
 permalink: /policies/
+classes: wide
+sidebar:
+  nav: "joinmenu"
 ---
 
 **Version 1**

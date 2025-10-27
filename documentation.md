@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Documentation"
+title: "Documentation Resources"
 permalink: /documentation/
+classes: wide
 sidebar:
   nav: "usemenu"
 ---
 
-## Documenation Resources
 
 ### E4S Products Documentation Portal
 
