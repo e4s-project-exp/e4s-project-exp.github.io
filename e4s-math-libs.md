@@ -7,6 +7,7 @@ sidebar:
   nav: "productfamiliesmenu"
 ---
 
+### Placeholder text - needs improvement
 
 This product family supplies reusable building blocks for computational simulation and modeling: linear and nonlinear solvers, time integrators, preconditioners, eigensolvers, optimization, and related tools.
 
@@ -14,6 +15,7 @@ This product family supplies reusable building blocks for computational simulati
 - **PETSc** (and its optimization/TAO extensions) for scalable solvers, time stepping, nonlinear systems   
 - **Trilinos** (and its many packages) for solver, discretization, preconditioning, multilevel, and modeling support   
 - Sparse direct solvers such as **SuperLU**
+- ODE/DAE solvers such as **SUNDIALS**
 - Related linear algebra and kernel libraries (e.g. KokkosKernels, MAGMA, hypre) that often interoperate with solver frameworks
 
 ### Application needs addressed  
