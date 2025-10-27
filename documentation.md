@@ -38,8 +38,4 @@ The E4S "DocPortal" provides a navigable, interactive portal to product document
 
 [E4S Container Launch Tool, to facilitate the use of system MPI from within containers](e4s-cl.html)
 
-Created for [The E4S Project](https://e4s-project.github.io/) by [Michael A. Heroux](https://maherou.github.io/)
-
-Copyright © E4S a Series of LF Projects, LLC\
-For web site terms of use, trademark policy and other project policies
-please see <https://lfprojects.org>.
+Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.

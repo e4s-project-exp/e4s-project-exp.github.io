@@ -25,7 +25,7 @@ E4S reduces this complexity by:
 
 ### Key Concepts to Know
 - **Scientific Computing:** Using computers to model, simulate, and analyze scientific problems (like predicting a hurricane or designing a new material).
-- Libraries: Pre-built sets of functions and routines that solve common problems. For example, a math library can solve equations much faster than writing the code yourself.
+- **Libraries:** Pre-built sets of functions and routines that solve common problems. For example, a math library can solve equations much faster than writing the code yourself.
 - **Tools:** Software that supports the research process—such as performance analyzers (which show how fast the program runs).
 - **Portability:** The ability to run the same software across different computers—from a laptop to the largest supercomputer—without rewriting it.
 - **Ecosystem:** A collection of many software libraries and tools that are designed to work together smoothly, much like apps on a smartphone that share data and services. More broadly, ecosystem also refers to the people and activities that support the production and use of the software collection.
@@ -40,7 +40,8 @@ E4S is continuously improved by experts and used in leading scientific projects 
 
 ### Why E4S Can Matter to You
 
-If you’re new to scientific computing, E4S makes it possible to focus on the science problem itself rather than on wrestling with complicated software setups. For decision-makers, E4S represents an investment in scientific productivity, reliability, and innovation.
+If you’re new to scientific computing, E4S makes it possible to focus more on the science problem you are solving rather than on wrestling with complicated software setups. For decision-makers, E4S represents an investment in scientific productivity, reliability, and innovation that improves the interactions, quality, and impact of the individual libraries and tools that are part of E4S.
 
 By lowering barriers to using advanced computing, E4S helps accelerate discoveries that benefit society.
 
+Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.

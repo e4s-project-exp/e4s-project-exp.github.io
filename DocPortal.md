@@ -36,10 +36,4 @@ The E4S Product Documentation Portal (DocPortal) provides a convenient searchabl
   </div>
 </div>
 
-<footer>
-  <div class="container">
-    Created for <a href="https://e4s-project.github.io">The E4S Project</a> by
-    <a href="https://maherou.github.io/">Michael A. Heroux</a><br>
-    Copyright © E4S a Series of LF Projects
-  </div>
-</footer>
+Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.

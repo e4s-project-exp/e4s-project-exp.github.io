@@ -194,3 +194,5 @@ This multi-architecture image contains E4S products compiled with DOE LLVM 16 an
 ### AWS EC2 Image
 
 The E4S 25.06 release is also available on [AWS](http://aws.amazon.com/) as an EC2 AMI with ID ami-0e752117cfa13cb9b in the US-West-2 (Oregon) region.
+
+Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.

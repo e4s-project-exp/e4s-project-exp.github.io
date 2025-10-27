@@ -51,6 +51,4 @@ FLP = future library policy
 -   **FLP3** Proper namespacing of symbols, macros, and include files.
 -   **FLP4** Memory leaks avoided by freeing all resources as soon as possible.
 
-Created for [The E4S Project](https://e4s-project.github.io) by [Michael A. Heroux](https://maherou.github.io/)
-
-[Copyright © E4S a Series of LF Projects, LLC, See <https://lfprojects.org> for terms of use and policies.
+Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.

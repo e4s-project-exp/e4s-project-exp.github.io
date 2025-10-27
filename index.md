@@ -7,7 +7,7 @@ classes: wide
 header:
 #   overlay_color: "#000"
 #  overlay_filter: "0.60"
-  overlay_filter: rgba(0, 146, 202, 0.75) # Same color as "air" skin footer
+  overlay_filter: rgba(6, 48, 64, 0.75) # Same color as "air" skin footer
   overlay_image: /assets/images/e4s-logo.jpg
 permalink: "/"
 ---
@@ -38,3 +38,5 @@ E4S packages build on most computer systems, from laptops to supercomputers. E4S
 The E4S software distribution is tested regularly on a variety of platforms, from Linux clusters to leadership platforms. E4S is tested on all major leadership platforms at the US Department of Energy facilities, including the Exascale systems, Frontier at Oak Ridge National Lab, and Aurora, at Argonne National Lab. E4S is also tested on cloud platforms, such as AWS, Azure, and Google Cloud.  Finally, E4S is ported and tested on the <a href="https://systems.nic.uoregon.edu/internal-wiki/index.php?title=Category:Servers" >Frank system</a> at the University of Oregon.
 
 [Learn more](/about/)
+
+Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.

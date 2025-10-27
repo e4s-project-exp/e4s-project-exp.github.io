@@ -30,10 +30,4 @@ also available [here](https://e4s-cl.readthedocs.io/en/latest/).
 
 [YouTube demo video](https://www.youtube.com/embed/6eZflZpHldk)
 
-Created for [The Extreme-scale Scientific Software Stack (E4S)
-Project](https://e4s-project.github.io) by [Michael A.
-Heroux](https://maherou.github.io/)
-
-Copyright © E4S a Series of LF Projects, LLC\
-For web site terms of use, trademark policy and other project policies
-please see <https://lfprojects.org>.
+Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.

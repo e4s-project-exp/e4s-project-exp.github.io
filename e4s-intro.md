@@ -2,6 +2,7 @@
 layout: single
 title: "Introduction to E4S"
 permalink: /e4s-intro/
+classes: wide
 sidebar:
   nav: "aboutmenu"
 ---
@@ -37,7 +38,7 @@ Scientific challenges—clean energy, climate resilience, national security, adv
 E4S makes these computers usable, productive, and accessible. With sustained investment, the U.S. preserves investments in efficiency, talent, and leadership in science and technology.
 
 ### How to Access E4S Products
-E4S products are accessable in many ways:
+E4S products are accessible in many ways:
 1. Each product is directly installable using Spack.
 1. E4S has its own Spack scripts that install the full collection of products that are part of E4S.  This script can be copied and pruned to suit your needs.
 1. E4S is available in containers on AWS and Google Cloud environments.
@@ -47,3 +48,5 @@ In all cases, products benefit from part of E4S by participating in the integrat
 
 - [Install E4S products using Spack](/spack-install)
 - [Use E4S containers](/download)
+
+Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.

@@ -16,7 +16,4 @@ General questions about E4S can be directed to the E4S Project Lead, Michael Her
 
 Technical questions about E4S can be directed to the E4S Technical Lead, Sameer Shende, <sameer@cs.uoregon.edu>
 
-
-Created for [The E4S Project](https://e4s-project.github.io) by [Michael A. Heroux](https://maherou.github.io/)
-
 Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
