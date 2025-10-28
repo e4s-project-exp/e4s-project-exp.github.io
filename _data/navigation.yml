@@ -38,6 +38,8 @@ aboutmenu:
 usemenu:
  - title: "Overview - Use E4S"
    url: /use/
+ - title: "E4S Guide Bot"
+   url: /e4s-guide-bot/
  - title: "E4S Documentation"
    url: /documentation/
  - title: "E4S Spack Installation"
@@ -66,3 +68,21 @@ productfamiliesmenu:
    url: /e4s-ai-ml/
  - title: "Infrastructure"
    url: /e4s-infrastructure/
+
+botmenu:
+ - title: "E4S Guide Bot"
+   url: /e4s-guide-bot/
+ - title: "Build Tools Guide Bot"
+   url: /buildguide/
+ - title: "Linear Solvers Guide Bot"
+   url: /linearsolverguide/
+ - title: "Nonlinear Solvers Guide Bot"
+   url: /nonlinearsolverguide/
+ - title: "DAE/ODE Solvers Guide Bot"
+   url: /daeodesolverguide/
+ - title: "I/O Libraries and Tools Guide Bot"
+   url: /iolibstoolsguide
+ - title: "Visualization Libraries and Tools Guide Bot"
+   url: /vizlibstoolsguide/
+ - title: "Performance Tools Guide Bot"
+   url: /perftoolsguide/
