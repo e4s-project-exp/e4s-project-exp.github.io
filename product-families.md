@@ -17,7 +17,7 @@ Below is a brief summary of the principal product families in E4S, along with re
 |----------------|-------------|
 Programming Systems | Compilers, runtime systems, and portability or abstraction layers that mediate between application code and hardware details — especially when targeting multiple CPU and GPU architectures.
 Performance Tools |  Profiling, tracing, instrumentation, hardware counters, and runtime measurement tools that help users discover performance bottlenecks and guide optimization, especially at extreme scale.
-Math Libraries | Reusable building blocks for computational simulation and modeling: linear and nonlinear solvers, time integrators, preconditioners, eigensolvers, optimization, and related tools.
+Math Libraries | Reusable building blocks for computational simulation and modeling: meshing, descretizations, adaptive mesh refinement implementations, linear and nonlinear solvers, time integrators, preconditioners, eigensolvers, optimization, and related tools.
 Data & Visualization | I/O, data management, in situ and postprocessing analysis, and visualization. The aim is to move from raw simulation output to insight, without overwhelming overhead.
 AI/Machine Learning | Frameworks and tools for training, inference, and distributed scaling of AI/ML methods in scientific workflows, particularly in hybrid HPC + AI settings.
 Infrastructure | Build, packaging, deployment, and environment orchestration tools that underlie the entire software ecosystem. It ensures that the components from the other domains can be built, composed, deployed, and upgraded reliably.
