@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "E4S Container Installation"
-permalink: /container-installation/
+permalink: /use-container-installation/
 classes: wide
 sidebar:
   nav: "usemenu"

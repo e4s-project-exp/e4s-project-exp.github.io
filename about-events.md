@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Events"
-permalink: /events/
+permalink: /about-events/
 classes: wide
 sidebar:
   nav: "aboutmenu"

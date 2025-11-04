@@ -2,7 +2,7 @@
 title: "E4S DocPortal"
 layout: single
 classes: wide
-permalink: /docportal/
+permalink: /use-docportal/
 ---
 
 The E4S Product Documentation Portal (DocPortal) provides a convenient searchable and sortable table that provides per-product information for all primary E4S products.

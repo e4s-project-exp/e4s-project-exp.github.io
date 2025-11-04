@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "DAE/ODE Solvers Guide Bot"
-permalink: /daeodesolverguide/
+title: "E4S Performance Tools Guide"
+permalink: /guide-perftools/
 classes: wide
 sidebar:
   nav: "botmenu"

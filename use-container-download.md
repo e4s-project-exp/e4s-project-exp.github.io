@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "E4S Container Download"
-permalink: /container-download/
+permalink: /use-container-download/
 classes: wide
 sidebar:
   nav: "usemenu"

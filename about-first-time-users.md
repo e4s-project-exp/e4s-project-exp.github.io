@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "First-time Users"
-permalink: /first-time-users/
+permalink: /about-first-time-users/
 classes: wide
 sidebar:
   nav: "aboutmenu"

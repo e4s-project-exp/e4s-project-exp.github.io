@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Introduction to E4S"
-permalink: /e4s-intro/
+permalink: /about-e4s-intro/
 classes: wide
 sidebar:
   nav: "aboutmenu"

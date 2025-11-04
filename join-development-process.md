@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "E4S Contribution Guide"
-permalink: /contribution-guide/
+title: "E4S Development Process"
+permalink: /join-development-process/
 classes: wide
 sidebar:
   nav: "joinmenu"

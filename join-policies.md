@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "E4S Community Policies"
-permalink: /policies/
+permalink: /join-policies/
 classes: wide
 sidebar:
   nav: "joinmenu"

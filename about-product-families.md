@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Overview of E4S product families"
-permalink: /product-families/
+permalink: /about-product-families/
 classes: wide
 sidebar:
   nav: "productfamiliesmenu"

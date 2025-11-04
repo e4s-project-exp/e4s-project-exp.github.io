@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Infrastructure"
-permalink: /e4s-infrastructure/
+title: "E4S Build Tools"
+permalink: /e4s-buildtools/
 classes: wide
 sidebar:
   nav: "productfamiliesmenu"

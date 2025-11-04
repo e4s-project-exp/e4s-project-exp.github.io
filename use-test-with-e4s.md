@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Test with E4S"
-permalink: /test-with-e4s/
+permalink: /use-test-with-e4s/
 sidebar:
   nav: "usemenu"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "AI & Machine Learning"
-permalink: /e4s-ai-ml/
+title: "E4S AI & Machine Learning"
+permalink: /e4s-aiml/
 classes: wide
 sidebar:
   nav: "productfamiliesmenu"

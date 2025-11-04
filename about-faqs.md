@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "E4S FAQs"
-permalink: /faqs/
+permalink: /about-faqs/
 classes: wide
 sidebar:
   nav: "aboutmenu"

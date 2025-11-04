@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Documentation Resources"
-permalink: /documentation/
+permalink: /use-documentation/
 classes: wide
 sidebar:
   nav: "usemenu"

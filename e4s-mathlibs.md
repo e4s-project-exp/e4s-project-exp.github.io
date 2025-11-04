@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Math Libraries"
-permalink: /e4s-math-libs/
+permalink: /e4s-mathlibs/
 classes: wide
 sidebar:
   nav: "productfamiliesmenu"

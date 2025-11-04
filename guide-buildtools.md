@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Performance Tools Guide Bot"
-permalink: /perftoolsguide/
+title: "E4S Build Tools Guide"
+permalink: /guide-buildtools/
 classes: wide
 sidebar:
   nav: "botmenu"

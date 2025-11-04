@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Linear Solver Guide"
-permalink: /linearsolverguide/
+title: "Math Libraries Guide"
+permalink: /guide-mathlibs/
 classes: wide
 sidebar:
-  nav: "productfamiliesmenu"
+  nav: "botmenu"
 ---
 
 To produce an effective prompt and get the best advice for which libraries in the E4S ecosystem might work well to solve your problem, we provide a set of attributes that, if specified by you (if relevant), can permit the bot to give you the best advice.

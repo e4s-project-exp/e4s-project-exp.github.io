@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Performance Tools"
-permalink: /e4s-perf-tools/
+permalink: /e4s-perftools/
 classes: wide
 sidebar:
   nav: "productfamiliesmenu"

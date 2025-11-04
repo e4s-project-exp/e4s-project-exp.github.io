@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Programming Systems & Tools"
-permalink: /e4s-programming-systems/
+title: "E4S Programming Systems & Tools"
+permalink: /e4s-programmingsystems/
 classes: wide
 sidebar:
   nav: "productfamiliesmenu"
