@@ -12,7 +12,6 @@ header:
 permalink: "/"
 ---
 
-
 Welcome to **E4S**, a software **ecosystem for science**, a trusted source for curated, high-quality scientific libraries and tools designed for advanced computing applications and platforms.
 
 **E4S is a community effort to provide and support an open-source software ecosystem for science**. E4S provides a **curated collection of scientific libraries and tools (packages) that form the foundation for hundreds of the world's most advanced scientific applications.**
