@@ -1,4 +1,4 @@
-Provide a newcomer introduction to linear equation solvers as provided by libraries supported by e4s, found at https:/e4s.io
+Provide a newcomer an introduction to linear equation solvers as provided by libraries supported by e4s, found at https:/e4s.io
 
 In addition to basic concepts, provide paragraphs on the following:
 1. The value of using optimized libraries for dense linear algebra for performance

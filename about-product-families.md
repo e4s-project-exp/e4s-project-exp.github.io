@@ -15,16 +15,19 @@ Below is a brief summary of the principal product families in E4S, along with re
 
 | Product Family | Description |
 |----------------|-------------|
+Build Tools | Build, packaging, deployment, and environment orchestration tools that underlie the entire software ecosystem. It ensures that the components from the other domains can be built, composed, deployed, and upgraded reliably.
 Programming Systems | Compilers, runtime systems, and portability or abstraction layers that mediate between application code and hardware details — especially when targeting multiple CPU and GPU architectures.
 Performance Tools |  Profiling, tracing, instrumentation, hardware counters, and runtime measurement tools that help users discover performance bottlenecks and guide optimization, especially at extreme scale.
 Math Libraries | Reusable building blocks for computational simulation and modeling: meshing, descretizations, adaptive mesh refinement implementations, linear and nonlinear solvers, time integrators, preconditioners, eigensolvers, optimization, and related tools.
 Data & Visualization | I/O, data management, in situ and postprocessing analysis, and visualization. The aim is to move from raw simulation output to insight, without overwhelming overhead.
 AI/Machine Learning | Frameworks and tools for training, inference, and distributed scaling of AI/ML methods in scientific workflows, particularly in hybrid HPC + AI settings.
-Infrastructure | Build, packaging, deployment, and environment orchestration tools that underlie the entire software ecosystem. It ensures that the components from the other domains can be built, composed, deployed, and upgraded reliably.
+
 
 ### E4S Integration & Curation: Ensuring Cohesion Across Product Families
 
-E4S does more than simply collect software—it actively **curates, integrates, and validates** across these product families so that users can reliably mix and match components without being overwhelmed by compatibility issues. Key features of this curation include:
+E4S does more than simply collect software—it actively **curates, integrates, and validates** across these product families so that users can reliably mix and match components without being overwhelmed by compatibility issues. 
+
+Key features of this curation include:
 
 - **Cross-domain testing across architectures**: E4S builds and tests its full portfolio on a variety of CPU and GPU systems (including leadership-class machines), ensuring that combinations of compilers, GPU backends, solver libraries, I/O stacks, and AI frameworks have been exercised together. 
 - **Version compatibility assurance**: Each E4S release is a curated snapshot where dependency versions are chosen to maximize interoperability and minimize "breaking changes" across libraries. Users can upgrade more confidently knowing that cross-product regressions have been vetted. 
