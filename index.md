@@ -83,9 +83,18 @@ Supported by the **U.S. Department of Energy (DOE)** and its partners, E4S accel
 
 </div>
 
+---
 <p style="text-align:center;">
     <strong style="font-size: 1.5em;">Trusted by the HPC-AI Community</strong>
 </p>
 E4S is developed and supported by contributors from U.S. national laboratories, universities, and industry partners. It is available as both open-source and commercial distributions such as [ParaTools Pro for E4S™](https://paratoolspro.com).
+
+---
+
+<p style="text-align:center;">
+    <strong>Ask me anything:</strong>
+</p>
+{% include e4s-bot-button.html %}
+
 
 {% include e4s-footer.html %}
