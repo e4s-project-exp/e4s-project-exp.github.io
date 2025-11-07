@@ -7,10 +7,50 @@ sidebar:
   nav: "botmenu"
 ---
 
-The "Software Ecosystem for Science Guide" (E4S Guide Bot) is a GPT generated from ChatGPT to address questions about E4S and provide detailed guidance in using E4S, Spack, and the libraries and tools that are part of the E4S community.
+
+<style>
+/* Inline style: E4S theme-adaptive pill button with white text */
+.btn--e4s {
+  background-color: var(--e4s-blue);
+  color: #ffffff !important;           /* Force white text */
+  border: none;
+  border-radius: 9999px;
+  padding: 0.6em 1.6em;
+  font-weight: 600;
+  display: inline-block;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+/* Hover and focus */
+.btn--e4s:hover,
+.btn--e4s:focus {
+  background-color: var(--e4s-blue-hover);
+  color: #ffffff !important;           /* Keep white text on hover */
+  text-decoration: none;
+}
+
+/* Light theme */
+:root {
+  --e4s-blue: #0092ca;        /* E4S blue */
+  --e4s-blue-hover: #006b99;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --e4s-blue: #33b8f2;
+  --e4s-blue-hover: #66ccff;
+}
+</style>
 
 
-Directly access the [E4S Guide Bot](https://chatgpt.com/g/g-69010fb294b0819195727cf1a7ccc792-software-ecosystem-for-science-guide) or visit one of the following pages to see guidance for how to form effective prompts that can help you select the best library or tool for your problem and receive detailed help in creating starter code.
+The "Software Ecosystem for Science Guide" (E4S Guide Bot) is a GPT generated from ChatGPT to address questions about E4S and provide detailed guidance in using E4S, Spack, and the libraries and tools that are part of the E4S community. Start a chat now or visit one of the prompt guides below to get assistance in building a custom prompt and obtain a more precise response
+
+<p style="text-align:center;">
+    Construct your prompt from the instructions below then use the E4S Guide Bot
+</p>
+{% include e4s-bot-button.html %}
+
 
 - [Build Tools Prompt Guide](/guide-buildtools/)
 - [Programming Systems Prompt Guide](/guide-programmingsystems/)
@@ -18,3 +58,5 @@ Directly access the [E4S Guide Bot](https://chatgpt.com/g/g-69010fb294b081919572
 - [Math Libraries Prompt Guide](/guide-mathlibs/)
 - [Data and Visualization Libraries and Tools Prompt Guide](/guide-davlibstools/)
 - [AI & ML Libraries and Tools Prompt Guide](/guide-aimlibstools/)
+
+{% include e4s-footer.html %}

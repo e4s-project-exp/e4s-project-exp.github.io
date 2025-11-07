@@ -124,3 +124,5 @@ Here are recommended steps for a newcomer:
 
 ## Conclusion  
 The math libraries supported in E4S offer a powerful foundation for high-performance scientific computing. By leveraging these optimized, community-supported libraries you gain performance, reliability, portability and productivity. As you embark on your project, identify the solver domain(s) you need, select the appropriate library from the tables above, run examples, and scale your application through the E4S-supported stack.
+
+{% include e4s-footer.html %}

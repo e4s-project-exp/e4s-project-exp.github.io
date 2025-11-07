@@ -7,6 +7,11 @@ sidebar:
   nav: "botmenu"
 ---
 
+<p style="text-align:center;">
+    Construct your prompt from the instructions below then use the E4S Guide Bot
+</p>
+{% include e4s-bot-button.html %}
+
 ## Introduction
 
 Selecting a suitable performance tool from the E4S suite depends on understanding your target system, application characteristics, and desired insights. The E4S 25.06 release includes a range of profiling, tracing, analysis, and performance modeling tools that cover CPU, GPU, memory, network, and I/O performance. 
@@ -75,3 +80,4 @@ The following attributes help guide this selection process by describing charact
 | IDE or GUI Availability | Whether the vendor tool includes a visual interface for analysis |
 | Multi-Vendor Support | Whether the tool supports analysis across different vendor devices in the same job |
 
+{% include e4s-footer.html %}

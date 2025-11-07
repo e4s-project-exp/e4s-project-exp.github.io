@@ -7,6 +7,12 @@ sidebar:
   nav: "botmenu"
 ---
 
+<p style="text-align:center;">
+    Construct your prompt from the instructions below then use the E4S Guide Bot
+</p>
+{% include e4s-bot-button.html %}
+
+
 ## Introduction
 
 E4S includes a variety of build tools that simplify the process of configuring, compiling, and installing scientific software across diverse high-performance computing (HPC) environments. Build tools are a critical part of the software lifecycle, ensuring reproducible builds, compatibility with system architectures, and integration with package managers such as Spack.
@@ -97,3 +103,4 @@ The tables below provide attributes that can help a newcomer or an automated ass
 | Policy Compliance | Support for site-specific build policies and reproducibility requirements. |
 | Lifecycle Management | Tools or hooks for maintaining, upgrading, and deprecating software builds. |
 
+{% include e4s-footer.html %}

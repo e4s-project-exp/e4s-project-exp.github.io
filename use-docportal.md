@@ -36,4 +36,4 @@ The E4S Product Documentation Portal (DocPortal) provides a convenient searchabl
   </div>
 </div>
 
-Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
+{% include e4s-footer.html %}

@@ -52,3 +52,5 @@ E4S provides two major releases each year, labeled as **E4S XX.YY**, where **XX*
 ---
 
 E4S development is a collaborative and evolving process designed to foster a thriving ecosystem of interoperable, high-performance scientific software. Through structured integration, rigorous testing, and robust infrastructure, E4S ensures that every release provides a dependable foundation for scientific discovery and innovation.
+
+{% include e4s-footer.html %}

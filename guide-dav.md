@@ -7,6 +7,11 @@ sidebar:
   nav: "botmenu"
 ---
 
+<p style="text-align:center;">
+    Construct your prompt from the instructions below then use the E4S Guide Bot
+</p>
+{% include e4s-bot-button.html %}
+
 # Introduction
 
 Selecting the right data and visualization libraries or tools is an important step in building efficient, scalable, and maintainable workflows for scientific computing and high-performance data analysis. The E4S 25.06 release includes a rich collection of data management, I/O, and visualization libraries designed for parallel performance, portability, and ecosystem integration. 
@@ -119,3 +124,4 @@ These attributes can then be described in a structured form that allows a chatbo
 | VR/AR readiness | Compatibility with immersive visualization systems |
 | Web interface | Support for web-based exploration using WebGL or similar technologies |
 
+{% include e4s-footer.html %}

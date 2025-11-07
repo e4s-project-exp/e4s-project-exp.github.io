@@ -122,4 +122,4 @@ Below is a summary (as of the time of writing) of representative E4S math librar
 | **SLATE** | Yes — SLATE targets dense linear algebra at scale, replacing/augmenting ScaLAPACK with modern GPU-aware design. | Limited sparse support (primarily a dense linear algebra library) | Yes (dense direct solvers, e.g. Cholesky, QR, etc.) | Not focused on sparse iterative solvers (its domain is dense distributed linear algebra) | SLATE is intended to be part of the CLOVER project in ECP / exascale math stack. |
 | **Amesos / Amesos2** (in Trilinos) | Via coupling to dense solver backends | Operates on sparse matrices (via Tpetra / Epetra) | Yes — acts as an interface to third-party direct solvers (e.g. KLU, MUMPS, SuperLU) for sparse systems | No (purely direct) | Provides a unified interface for choosing direct solvers within the Trilinos ecosystem. |
 
----
+{% include e4s-footer.html %}

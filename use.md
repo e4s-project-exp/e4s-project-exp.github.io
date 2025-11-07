@@ -16,6 +16,4 @@ E4S offers multiple methods for deploying its collection of HPC and AI software 
 | Containers | E4S offers containerized versions of its software stack, compatible with Docker, Singularity, Shifter, and CharlieCloud. See the [Downloads page](/download.html) for available containers. Containers provide portable environments across systems. E4S containers are also available via [ParaTools Pro for E4S™](https://paratoolspro.com), including [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-ozpychswxmldi). |
 | Cloud Options |E4S can be deployed on Amazon Web Services (AWS) for scalable cloud-based HPC/AI workloads and Google Cloud Platform (GCP) with access to high-performance VMs and storage. 
 
-Created for [The E4S Project](https://e4s-project.github.io) by [Michael A. Heroux](https://maherou.github.io/)
-
-Copyright © E4S a Series of LF Projects, LLC, For terms of use and policies see <https://lfprojects.org>.
+{% include e4s-footer.html %}

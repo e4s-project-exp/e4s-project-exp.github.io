@@ -12,7 +12,7 @@ sidebar:
 
 The E4S "DocPortal" provides a navigable, interactive portal to product documentation.  The portal provides a searchable and sortable table of all primary E4S products.  The table contains information about each product, what [product family](/product-families/) it belongs to, timestamps on documentation updates, a brief summary of each product and a link to the product website.
 
-[Go to the E4S DocPortal](/docportal/).
+{% include e4s-portal-button.html %}
 
 ### E4S Version 25.06 Resources
 
@@ -38,4 +38,4 @@ The E4S "DocPortal" provides a navigable, interactive portal to product document
 
 [E4S Container Launch Tool, to facilitate the use of system MPI from within containers](e4s-cl.html)
 
-Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
+{% include e4s-footer.html %}

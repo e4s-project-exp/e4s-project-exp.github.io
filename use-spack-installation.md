@@ -2,6 +2,7 @@
 layout: single
 title: "Finding and installing products using Spack"
 permalink: /use-spack-installation/
+classes: wide
 sidebar:
   nav: "usemenu"
 ---
@@ -291,4 +292,4 @@ spack load <name>
 
 Spack makes it easy to discover, configure, and install complex scientific software stacks. By understanding how to search for packages, inspect build options, control compilers and dependencies, and manage environments, you can consistently build powerful and reproducible software configurations.
 
-Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
+{% include e4s-footer.html %}

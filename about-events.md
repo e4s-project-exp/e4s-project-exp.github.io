@@ -21,4 +21,4 @@ sidebar:
 -   [First E4S Forum Workshop at IEEE Cluster 2019](https://oaciss.uoregon.edu/E4S-Forum19), Albuquerque, NM, September 23, 2019.
 -   [First workshop on NSF and DOE High Performance Computing Tools](https://oaciss.uoregon.edu/NSFDOE19), Eugene, OR, July 10-11, 2019.
 
-Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
+{% include e4s-footer.html %}

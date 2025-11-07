@@ -44,4 +44,4 @@ If you’re new to scientific computing, E4S makes it possible to focus more on 
 
 By lowering barriers to using advanced computing, E4S helps accelerate discoveries that benefit society.
 
-Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
+{% include e4s-footer.html %}

@@ -7,6 +7,11 @@ sidebar:
   nav: "botmenu"
 ---
 
+<p style="text-align:center;">
+    Construct your prompt from the instructions below then use the E4S Guide Bot
+</p>
+{% include e4s-bot-button.html %}
+
 # Introduction
 
 Mathematical libraries are the foundation of most scientific computing applications. They provide optimized, scalable implementations of key algorithms such as solvers, transforms, and discretizations that allow applications to leverage the performance of modern hardware while maintaining numerical accuracy and reproducibility.
@@ -103,3 +108,5 @@ When selecting a math library from the E4S ecosystem, users should consider thei
 | Uncertainty quantification | Integration with UQ frameworks or polynomial chaos. |
 | Surrogate modeling | Use of reduced-order or data-driven surrogate models. |
 | Multi-physics coupling | Ability to link to external solvers for coupled systems. |
+
+{% include e4s-footer.html %}

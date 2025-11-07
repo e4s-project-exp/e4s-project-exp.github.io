@@ -7,6 +7,12 @@ sidebar:
   nav: "botmenu"
 ---
 
+<p style="text-align:center;">
+    Construct your prompt from the instructions below then use the E4S Guide Bot
+</p>
+{% include e4s-bot-button.html %}
+
+
 ## Introduction
 
 Artificial Intelligence (AI) and Machine Learning (ML) are rapidly evolving areas that increasingly intersect with high-performance computing (HPC). Within the E4S ecosystem, AI/ML tools are selected and supported to provide scalable, portable, and sustainable foundations for scientific discovery. These tools range from industry-standard frameworks such as TensorFlow and PyTorch, to specialized scientific and workflow-oriented environments like DeepHyper, LBANN, and SmartSim.
@@ -98,3 +104,4 @@ The following tables outline attributes that can help a newcomer — or an autom
 | Connectivity requirements | Handling of intermittent network connections or federated learning setups. |
 | Security and privacy | Support for encrypted models, federated updates, or privacy-preserving training. |
 
+{% include e4s-footer.html %}

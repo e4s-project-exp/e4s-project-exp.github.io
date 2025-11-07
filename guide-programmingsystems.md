@@ -7,6 +7,11 @@ sidebar:
   nav: "botmenu"
 ---
 
+<p style="text-align:center;">
+    Construct your prompt from the instructions below then use the E4S Guide Bot
+</p>
+{% include e4s-bot-button.html %}
+
 ## Introduction
 
 Selecting an appropriate parallel programming system is a key step in developing efficient, portable, and maintainable scientific applications. The E4S ecosystem provides a curated collection of programming models, frameworks, and libraries designed to help developers achieve high performance across diverse architectures including multicore CPUs, manycore GPUs, and emerging accelerators. 
@@ -83,3 +88,5 @@ To help newcomers navigate these choices, the following sections define attribut
 | Language interoperability | Ease of calling C/C++ libraries from Fortran or vice versa. |
 | Toolchain integration | Integration with LLVM-based analysis, debugging, and profiling tools. |
 | Vendor backend support | Availability of target backends (NVIDIA, AMD, Intel, ARM) through the compiler toolchain. |
+
+{% include e4s-footer.html %}

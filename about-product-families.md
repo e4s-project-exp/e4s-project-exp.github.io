@@ -37,4 +37,4 @@ Key features of this curation include:
 
 In effect, E4S acts as a stabilizing backbone: by continuously validating and pruning the large combination of library interactions, it enables application teams to adopt cutting-edge capabilities across multiple domains (e.g. new solver algorithms, new profiling tools, AI modules) without having to individually integrate and test every possible combination themselves.
 
-Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
+{% include e4s-footer.html %}

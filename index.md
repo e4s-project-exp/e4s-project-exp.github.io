@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "E4S: An HPC-AI Software Ecosystem for Science"
-excerpt: "Empowering scientific computing with curated libraries and tools."
+title: "E4S: HPC-AI Software Ecosystem for Science"
+excerpt: "Performance-portable libraries & tools for advanced computing"
 layout: splash # Default: home, but that includes a list of posts
 classes: wide
 header:
@@ -12,30 +12,80 @@ header:
 permalink: "/"
 ---
 
-Welcome to **E4S**, a software **ecosystem for science**, a trusted source for curated, high-quality scientific libraries and tools designed for advanced computing applications and platforms.
 
-**E4S is a community effort to provide and support an open-source software ecosystem for science**. E4S provides a **curated collection of scientific libraries and tools (packages) that form the foundation for hundreds of the world's most advanced scientific applications.**
-                            
-**E4S packages support developing, deploying and running scientific applications on high-performance computing (HPC) and AI platforms** sponsored by the **US Department of Energy (DOE) Office of Advanced Scientific Computing Research**.  E4S is also used as a foundation for applications on leadership-class computing systems at the **US Department of Defense, US National Science Foundation, and other federal agencies.**  It is used on numerous high-performance computing systems at universities and at collaborating international organizations.  
- 
-**E4S provides from-source builds, containers, and pre-installed versions of a [broad collection of HPC and AI software packages (E4S 25.06 release announcement)](news/NEWS_RELEASE_E4S_25.06.pdf)** E4S includes contributions from many organizations, including national laboratories, universities, and industry.  E4S is one of the key legacies of the [US Exascale Computing Project (ECP)](https://www.exascaleproject.org), a collaborative effort of the US Department of Energy Office of Advanced Scientific Computing Research and the National Nuclear Security Administration.
+Welcome to **E4S**, the *Ecosystem for Scientific Software* — an open-source, community-driven collection of high-quality HPC and AI libraries and tools. E4S enables scientists, developers, and institutions to develop, deploy, and run performance-portable applications across CPUs and GPUs from NVIDIA, AMD, Intel, and Arm. Ready to adapt to new architectures as they emerge.
 
-### Purpose
+Supported by the **U.S. Department of Energy (DOE)** and its partners, E4S accelerates scientific innovation on systems ranging from laptops to exascale supercomputers.
 
-E4S exists to accelerate the development, deployment and use of HPC-AI software, lowering the barriers for HPC-AI users. E4S represents one of the largest collections of performance-portable GPU-enabled libraries and tools, supporting users of NVIDIA, AMD, and Intel GPUs in addition to Intel, AMD and Arm CPUs.  E4S provides containers and turn-key, from-source builds of more than 120 popular HPC-AI products.  E4S products include programming models, such as MPI and Kokkos; development tools such as HPCToolkit, TAU and PAPI; math libraries such as PETSc and Trilinos; Data and Viz tools such as HDF5 and Paraview; and AI products such as JAX, PyTorch, TensorFlow, and Horovod.  The entire portfolio is tested and validated on a variety of platforms, from laptops to supercomputers, providing confidence for users to upgrade with each E4S release.
+<style>
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.feature-item {
+  background: #f8f9fa;
+  border-radius: 12px;
+  text-align: center;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.feature-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.12);
+}
+.feature-item svg {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+  stroke: #0092CA;
+  stroke-width: 1.8;
+  fill: none;
+}
+.feature-item h3 {
+  color: #0092CA;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.feature-item p {
+  font-size: 0.95rem;
+  color: #444;
+}
+</style>
 
-### Approach
-                          
-E4S relies on <a href="https://spack.io">Spack</a>, a powerful package management platform widely used in the HPC-AI community. By using Spack as the package manager and providing containers of pre-built binaries for Docker, Singularity, Shifter and CharlieCloud, E4S enables the flexible use and testing of a <a href="DocPortal.html"> large collection of reusable HPC-AI software packages</a>.  E4S also supports [product families](/product-families/), collections of related products, to promote interoperability.  Finally, E4S products provide performance portability across a wide range of CPU and GPU architectures, including Intel, AMD, and Arm CPUs, and NVIDIA, AMD, and Intel GPUs using the Kokkos programming model and similar approaches, the MPI programming model via multiple MPI implementations, and new emerging language parallel programming support in the LLVM ecosystem.
+<div class="feature-grid">
 
-### Platforms
+<div class="feature-item">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6v6H9z"/></svg>
+<h3>Performance Portability</h3>
+<p>Run anywhere—from laptops to exascale supercomputers using modern GPU and CPU architectures.</p>
+</div>
 
-E4S packages build on most computer systems, from laptops to supercomputers. E4S is available on all major leadership platforms at the US Department of Energy facilities, including the Exascale systems, <a href="https://www.olcf.ornl.gov/olcf-resources/compute-systems/frontier/">Frontier</a> at Oak Ridge National Lab, and <a href="https://www.alcf.anl.gov/aurora">Aurora</a>, at Argonne National Lab (capable of a billion-billion operations per second). E4S is also available in containers from DockerHub and on cloud platforms, such as AWS, Azure, and Google Cloud.  <a href="https://paratoolspro.com">ParaTools Pro for E4S&trade;</a> is a commercial version of E4S that provides additional support and services for E4S users including availability on <a href="https://aws.amazon.com/marketplace/search/results?searchTerms=ParaTools+Pro">AWS</a>.
+<div class="feature-item">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="6" rx="1"/><rect x="3" y="9" width="18" height="6" rx="1"/><rect x="3" y="15" width="18" height="6" rx="1"/></svg>
+<h3>Curated Software Ecosystem</h3>
+<p>Over 120 interoperable libraries for HPC and AI workflows, validated for research and production use.</p>
+</div>
 
-### Testing
+<div class="feature-item">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5V3m0 18v-2m9-7h2M3 12H1m16.95 5.95l1.414 1.414M5.636 5.636 4.222 4.222M18.364 5.636l1.414-1.414M5.636 18.364 4.222 19.778"/><circle cx="12" cy="12" r="5"/></svg>
+<h3>Reproducible Environments</h3>
+<p>Deploy via Spack or pre-built containers for Docker, Singularity, and cloud environments.</p>
+</div>
 
-The E4S software distribution is tested regularly on a variety of platforms, from Linux clusters to leadership platforms. E4S is tested on all major leadership platforms at the US Department of Energy facilities, including the Exascale systems, Frontier at Oak Ridge National Lab, and Aurora, at Argonne National Lab. E4S is also tested on cloud platforms, such as AWS, Azure, and Google Cloud.  Finally, E4S is ported and tested on the <a href="https://systems.nic.uoregon.edu/internal-wiki/index.php?title=Category:Servers" >Frank system</a> at the University of Oregon.
+<div class="feature-item">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 7h16M4 12h8M4 17h4M15 16l2 2 3-3"/></svg>
+<h3>Continuous Validation</h3>
+<p>E4S packages are tested across DOE leadership and cloud platforms for quality and reproducibility.</p>
+</div>
 
-[Learn more](/about/)
+</div>
 
-Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
+<p style="text-align:center;">
+    <strong style="font-size: 1.5em;">Trusted by the HPC-AI Community</strong>
+</p>
+E4S is developed and supported by contributors from U.S. national laboratories, universities, and industry partners. It is available as both open-source and commercial distributions such as [ParaTools Pro for E4S™](https://paratoolspro.com).
+
+{% include e4s-footer.html %}

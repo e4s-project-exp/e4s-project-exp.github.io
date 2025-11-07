@@ -21,4 +21,4 @@ The source code is available at the [E4S-CL GitHub repository](https://github.co
 
 [YouTube demo video](https://www.youtube.com/embed/6eZflZpHldk)
 
-Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
+{% include e4s-footer.html %}

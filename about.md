@@ -18,4 +18,4 @@ E4S provides a curated collection of scientific libraries and tools supporting s
 | E4S FAQs | Frequently asked questions covering usage, licensing, support, and common troubleshooting. |
 | E4S News & Events | Announcements, release notes, and upcoming events related to E4S. |
 
-Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
+{% include e4s-footer.html %}

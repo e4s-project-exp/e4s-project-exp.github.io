@@ -49,4 +49,4 @@ In all cases, products benefit from part of E4S by participating in the integrat
 - [Install E4S products using Spack](/spack-install)
 - [Use E4S containers](/download)
 
-Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
+{% include e4s-footer.html %}

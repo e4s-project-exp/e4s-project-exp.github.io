@@ -2,6 +2,7 @@
 layout: single
 title: "Test with E4S"
 permalink: /use-test-with-e4s/
+classes: wide
 sidebar:
   nav: "usemenu"
 ---
@@ -16,4 +17,4 @@ General questions about E4S can be directed to the E4S Project Lead, Michael Her
 
 Technical questions about E4S can be directed to the E4S Technical Lead, Sameer Shende, <sameer@cs.uoregon.edu>
 
-Copyright © E4S a Series of LF Projects, LLC For web site terms of use, trademark policy and other project policies please see <https://lfprojects.org>.
+{% include e4s-footer.html %}

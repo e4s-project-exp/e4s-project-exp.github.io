@@ -76,3 +76,5 @@ Modern Fortran and C++ compilers built on **LLVM infrastructure** (including Fla
 E4S programming systems enable developers to write portable, high-performance applications capable of running efficiently across diverse architectures. By integrating low-level communication systems like **MPI**, node-level abstractions like **Kokkos** and **RAJA**, and modern compiler technologies supporting **OpenMP**, **OpenACC**, and **SYCL**, E4S ensures that scientific applications can evolve with hardware and remain sustainable over decades.
 
 Together, these tools form the foundation of the DOE’s exascale software ecosystem — unifying productivity, portability, and performance across the world’s fastest computing platforms.
+
+{% include e4s-footer.html %}

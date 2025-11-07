@@ -82,3 +82,5 @@ E4S also interoperates with vendor-provided performance tools that offer archite
 The E4S performance tools ecosystem offers a unified, interoperable suite for comprehensive performance measurement and analysis across hardware platforms and programming models. By combining open-source instrumentation frameworks, scalable analysis engines, and vendor-optimized profilers, developers can achieve a deep understanding of application behavior from kernel-level execution to multi-node communication.
 
 These tools help ensure that scientific and AI workloads can run efficiently on the most advanced supercomputers in the world, including Frontier, Aurora, El Capitan, and future exascale-class systems.
+
+{% include e4s-footer.html %}
