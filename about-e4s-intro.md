@@ -44,9 +44,6 @@ E4S products are accessible in many ways:
 1. E4S is available in containers on AWS and Google Cloud environments.
 1. E4S is available from a variety of containers including several minimal base containers that enable to you to establish a base image and install compatible versions of the products you want to use.
 
-In all cases, products benefit from part of E4S by participating in the integration and testing support that E4S provides.  Even when using an E4S-supported product independent of E4S, you benefit from the portability testing and version compatibility that E4S efforts enhance.
-
-- [Install E4S products using Spack](/spack-install)
-- [Use E4S containers](/download)
+In all cases, products benefit from being part of E4S by participating in the integration and testing support that E4S provides.  Even when using an E4S-supported product independent of E4S, you benefit from the portability testing and version compatibility that E4S efforts enhance.
 
 {% include e4s-footer.html %}
