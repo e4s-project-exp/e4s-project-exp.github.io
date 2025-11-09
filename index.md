@@ -12,7 +12,6 @@ header:
 permalink: "/"
 ---
 
-
 Welcome to **E4S**, the *Ecosystem for Scientific Software* — an open-source, community-driven collection of high-quality HPC and AI libraries and tools. E4S enables scientists, developers, and institutions to develop, deploy, and run performance-portable applications across CPUs and GPUs from NVIDIA, AMD, Intel, and Arm. Ready to adapt to new architectures as they emerge.
 
 Supported by the **U.S. Department of Energy (DOE)** and its partners, E4S accelerates scientific innovation on systems ranging from laptops to exascale supercomputers.
@@ -24,18 +23,74 @@ Supported by the **U.S. Department of Energy (DOE)** and its partners, E4S accel
   gap: 1.5rem;
   margin-top: 2rem;
 }
+
+/* Card shell */
 .feature-item {
+  --card-h: auto;           /* will be filled by JS per card */
   background: #f8f9fa;
   border-radius: 12px;
   text-align: center;
-  padding: 1.5rem;
+  padding: 0;               /* faces hold padding */
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease;
+  position: relative;
+  perspective: 1000px;
+  cursor: pointer;
+  height: var(--card-h, auto);
+  min-height: 240px;        /* safety floor, gets overridden once sized */
 }
-.feature-item:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 10px rgba(0,0,0,0.12);
+
+/* Rotating inner wrapper */
+.feature-item .card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;             /* match computed height */
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  border-radius: 12px;
 }
+
+/* Faces */
+.feature-item .card-front,
+.feature-item .card-back {
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  backface-visibility: hidden;
+  overflow: auto;           /* scroll if needed */
+}
+
+/* Front preserves original design */
+.feature-item .card-front {
+  background: #f8f9fa;
+}
+
+/* Back */
+.feature-item .card-back {
+  background: #eaf5fb;
+  text-align: left;
+  transform: rotateY(180deg);
+}
+
+/* Desktop hover lift */
+@media (hover: hover) {
+  .feature-item:hover {
+    box-shadow: 0 6px 10px rgba(0,0,0,0.12);
+  }
+}
+
+/* Flip triggers */
+.feature-item.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+@media (hover: hover) {
+  .feature-item:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+}
+
+/* Original icon/typography */
 .feature-item svg {
   width: 64px;
   height: 64px;
@@ -53,35 +108,159 @@ Supported by the **U.S. Department of Energy (DOE)** and its partners, E4S accel
   font-size: 0.95rem;
   color: #444;
 }
+
+/* Back button */
+.feature-item .flip-back {
+  margin-top: 1rem;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #0092CA;
+  color: white;
+  cursor: pointer;
+}
+.feature-item .flip-back:hover {
+  background-color: #0078a8;
+}
+
+/* Measurement mode (temporarily disables abs positioning to read natural heights) */
+.feature-item.measuring .card-front,
+.feature-item.measuring .card-back {
+  position: static !important;
+  transform: none !important;
+  display: block !important;
+  box-shadow: none !important;
+  backface-visibility: visible !important;
+}
 </style>
 
 <div class="feature-grid">
 
+<!-- 1 -->
 <div class="feature-item">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6v6H9z"/></svg>
-<h3>Performance Portability</h3>
-<p>Run anywhere—from laptops to exascale supercomputers using modern GPU and CPU architectures.</p>
+  <div class="card-inner">
+    <div class="card-front">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6v6H9z"/></svg>
+      <h3>Performance Portability</h3>
+      <p>Run anywhere—from laptops to exascale supercomputers using modern GPU and CPU architectures.</p>
+    </div>
+    <div class="card-back">
+      <h3>More Details</h3>
+      <p>E4S supports programming models like Kokkos and MPI to enable single-source performance across CPUS and GPUs, and scalable clusters to leadership systems.</p>
+    </div>
+  </div>
 </div>
 
+<!-- 2 -->
 <div class="feature-item">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="6" rx="1"/><rect x="3" y="9" width="18" height="6" rx="1"/><rect x="3" y="15" width="18" height="6" rx="1"/></svg>
-<h3>Curated Software Ecosystem</h3>
-<p>Over 120 interoperable libraries for HPC and AI workflows, validated for research and production use.</p>
+  <div class="card-inner">
+    <div class="card-front">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="6" rx="1"/><rect x="3" y="9" width="18" height="6" rx="1"/><rect x="3" y="15" width="18" height="6" rx="1"/></svg>
+      <h3>Curated Ecosystem</h3>
+      <p>Over 120 interoperable libraries and tools for HPC and AI workflows, validated for research and production use.</p>
+    </div>
+    <div class="card-back">
+      <h3>More Details</h3>
+      <p>E4S organizes products into product families such as math libraries, I/O, AI/ML, and performance tools—curated for compatibility and tested integration.</p>
+    </div>
+  </div>
 </div>
 
+<!-- 3 -->
 <div class="feature-item">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5V3m0 18v-2m9-7h2M3 12H1m16.95 5.95l1.414 1.414M5.636 5.636 4.222 4.222M18.364 5.636l1.414-1.414M5.636 18.364 4.222 19.778"/><circle cx="12" cy="12" r="5"/></svg>
-<h3>Reproducible Environments</h3>
-<p>Deploy via Spack or pre-built containers for Docker, Singularity, and cloud environments.</p>
+  <div class="card-inner">
+    <div class="card-front">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5V3m0 18v-2m9-7h2M3 12H1m16.95 5.95l1.414 1.414M5.636 5.636 4.222 4.222M18.364 5.636l1.414-1.414M5.636 18.364 4.222 19.778"/><circle cx="12" cy="12" r="5"/></svg>
+      <h3>Reproducible Environments</h3>
+      <p>Deploy via Spack or pre-built containers for Docker, Singularity, and cloud environments.</p>
+    </div>
+    <div class="card-back">
+      <h3>More Details</h3>
+      <p>Binary caches, container images, and continuous builds ensure consistent environments across facilities, enabling reproducible experiments and fair benchmarking.</p>
+    </div>
+  </div>
 </div>
 
+<!-- 4 -->
 <div class="feature-item">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 7h16M4 12h8M4 17h4M15 16l2 2 3-3"/></svg>
-<h3>Continuous Validation</h3>
-<p>E4S packages are tested across DOE leadership and cloud platforms for quality and reproducibility.</p>
+  <div class="card-inner">
+    <div class="card-front">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 7h16M4 12h8M4 17h4M15 16l2 2 3-3"/></svg>
+      <h3>Continuous Validation</h3>
+      <p>E4S packages are tested across DOE leadership and cloud platforms for quality and reproducibility.</p>
+    </div>
+    <div class="card-back">
+      <h3>More Details</h3>
+      <p>Automated pipelines validate builds nightly across dozens of devices on the Frank testbed, tracking API/ABI changes and ensuring cross-platform reproducibility.</p>
+    </div>
+  </div>
 </div>
 
 </div>
+
+<script>
+// Flip behavior: touch devices tap; desktop hover handled by CSS
+document.querySelectorAll('.feature-item').forEach(item => {
+  const backButton = item.querySelector('.flip-back');
+  item.addEventListener('click', e => {
+    if (!window.matchMedia('(hover:hover)').matches) {
+      if (!e.target.classList.contains('flip-back')) item.classList.toggle('flipped');
+    }
+  });
+  if (backButton) {
+    backButton.addEventListener('click', e => {
+      e.stopPropagation();
+      item.classList.remove('flipped');
+    });
+  }
+});
+
+/* ---- Auto-size each card to its tallest face ----
+   Measures natural heights (front & back), sets --card-h per card,
+   and re-measures on load/resize/grid reflow.
+*/
+function sizeCards() {
+  const items = document.querySelectorAll('.feature-item');
+  if (!items.length) return;
+
+  items.forEach(item => {
+    // put card in "measuring" mode so faces flow naturally
+    item.classList.add('measuring');
+    // clear previous height so we can measure natural height
+    item.style.setProperty('--card-h', 'auto');
+
+    const front = item.querySelector('.card-front');
+    const back  = item.querySelector('.card-back');
+
+    // read natural heights
+    const hFront = front ? front.scrollHeight : 0;
+    const hBack  = back  ? back.scrollHeight  : 0;
+
+    // choose the tallest + a tiny buffer
+    const h = Math.max(hFront, hBack, 240) + 2;
+
+    // apply height to the card
+    item.style.setProperty('--card-h', h + 'px');
+
+    // leave measuring mode
+    item.classList.remove('measuring');
+  });
+}
+
+// Recompute on load, after fonts, and on resize
+window.addEventListener('load', sizeCards);
+window.addEventListener('resize', () => { sizeCards(); });
+
+// Recompute when the grid layout changes size (e.g., responsive columns)
+const grid = document.querySelector('.feature-grid');
+if (window.ResizeObserver && grid) {
+  const ro = new ResizeObserver(() => sizeCards());
+  ro.observe(grid);
+}
+
+// If content/fonts load late in Minimal-Mistakes, a small post-load nudge helps
+setTimeout(sizeCards, 300);
+</script>
 
 ---
 <p style="text-align:center;">
@@ -95,6 +274,5 @@ E4S is developed and supported by contributors from U.S. national laboratories, 
     <strong>Ask me anything:</strong>
 </p>
 {% include e4s-bot-button.html %}
-
 
 {% include e4s-footer.html %}

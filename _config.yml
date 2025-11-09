@@ -49,8 +49,8 @@ future: true
 # Set the logo image
 #
 
-logo: /assets/images/e4s-logo.jpg
-og_image: /assets/images/e4s-logo.jpg
+logo: /assets/images/E4S-no-background.png
+og_image: /assets/images/E4S-no-background.png
 
 # Generate a sitemap.xml
 plugins:
