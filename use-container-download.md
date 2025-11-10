@@ -33,6 +33,7 @@ Please see the [E4S 25.06 Release Notes](https://oaciss.uoregon.edu/e4s/talks/E4
   * [Singularity aarch64 Download - CUDA 75](https://oaciss.nic.uoregon.edu/e4s/images/25.06/e4s-cuda75-aarch64-25.06.sif)
   * [Singularity aarch64 Download - CUDA 80](https://oaciss.nic.uoregon.edu/e4s/images/25.06/e4s-cuda80-aarch64-25.06.sif)
   * [Singularity aarch64 Download - CUDA 90](https://oaciss.nic.uoregon.edu/e4s/images/25.06/e4s-cuda90-aarch64-25.06.4.sif)
+  * [Singularity aarch64 Download - CUDA 120](https://oaciss.nic.uoregon.edu/e4s/images/25.06/e4s-cuda120-aarch64-25.06.6.sif)
   * [Singularity x86\_64 Download - ROCm gfx942](https://oaciss.nic.uoregon.edu/e4s/images/25.06/e4s-rocm942-x86_64-25.06.sif)
   * [Singularity x86\_64 Download - ROCm gfx90a](https://oaciss.nic.uoregon.edu/e4s/images/25.06/e4s-rocm90a-x86_64-25.06.sif)
   * [Singularity x86\_64 Download - ROCm gfx908](https://oaciss.nic.uoregon.edu/e4s/images/25.06/e4s-rocm908-x86_64-25.06.sif)
