@@ -211,7 +211,7 @@ Supported by the **U.S. Department of Energy (DOE)** and its partners, E4S accel
     <div class="card-front">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5V3m0 18v-2m9-7h2M3 12H1m16.95 5.95l1.414 1.414M5.636 5.636 4.222 4.222M18.364 5.636l1.414-1.414M5.636 18.364 4.222 19.778"/><circle cx="12" cy="12" r="5"/></svg>
       <h3>Reproducible Environments</h3>
-      <p>Deploy via Spack or pre-built containers for Docker, Singularity, and cloud environments.</p>
+      <p>Deploy via Spack, pre-built containers for Docker, Singularity, and commercial cloud environments.</p>
     </div>
     <div class="card-back">
       <h3>More Details</h3>
