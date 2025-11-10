@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "E4S Communication Lists"
-permalink: /join-communication-lists/
+permalink: /communication-lists/
 classes: wide
 sidebar:
   nav: "joinmenu"
@@ -43,7 +43,7 @@ The E4S community provides multiple ways for developers, users, and contributors
 |------|--------------|
 | Purpose | GitHub Issues are used to track bugs, requests, and proposed improvements across the E4S suite of repositories. |
 | Main Repositories | The primary repositories for issues are `e4s-project/e4s` for the E4S release bundle and `e4s-project/e4s.github.io` for the website. |
-| E4S Product Issues | For issues specific to individual products, users are encouraged to submit issues directly to that product’s repository. Each E4S package entry in the DocPortal links to its source repository. |
+| E4S Product Issues | For issues specific to individual products, users are encouraged to submit issues directly to that product’s repository. Each E4S package entry in the [E4S Product Catalog](/product-catalog/) links to its source repository. |
 | How to Submit | Visit the appropriate repository on GitHub and click on the **Issues** tab. Review existing issues to check for duplicates before opening a new one. Use templates provided to categorize the issue (bug, feature, documentation, etc.). |
 | Expectations | Provide clear descriptions, relevant logs, and version information. The E4S integration team and product maintainers will triage and respond to new issues as part of the continuous integration and release cycle. |
 

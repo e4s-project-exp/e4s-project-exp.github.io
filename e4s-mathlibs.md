@@ -100,7 +100,7 @@ Below are summary tables categorised by solver type. These are representative of
 |--------|------------------|----------------|
 | libEnsemble | Ensemble‐based computing, dynamic task scheduling for uncertainty quantification, optimisation, machine learning workflows | Enables high‐throughput simulations under UQ or optimisation loops. |
 | UQTK (Uncertainty Quantification Toolkit) | Polynomial chaos, stochastic Galerkin, UQ workflows | Useful when embedding stochastic modelling in HPC simulation. |
-| MOAB, Tasmanian, SNES stochastic modules | Mesh management, sparse grids, stochastic solvers | Advanced use-cases often in multiphysics + UQ frameworks. |
+| MOAB, Tasmanian, SNES stochastic modules | Mesh management, sparse grids, stochastic solvers | Advanced use cases often in multiphysics + UQ frameworks. |
 
 ---
 

@@ -9,7 +9,7 @@ header:
 #  overlay_filter: "0.60"
   overlay_filter: rgba(0, 146, 202, 0.75) # Same color as "air" skin footer
   overlay_image: /assets/images/e4s-logo.jpg
-permalink: "/"
+permalink: "/bak/bak/"
 ---
 
 Welcome to **E4S**, a software **ecosystem for science**, a trusted source for curated, high-quality scientific libraries and tools designed for advanced computing applications and platforms.

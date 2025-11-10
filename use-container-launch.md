@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "E4S-CL"
-permalink: /use-container-launch/
+permalink: /container-launch/
 classes: wide
 sidebar:
   nav: "usemenu"

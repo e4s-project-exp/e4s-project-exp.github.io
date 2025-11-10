@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "E4S Contribution Guide"
-permalink: /join-contribution-guide/
+permalink: /contribution-guide/
 classes: wide
 sidebar:
   nav: "joinmenu"
@@ -41,7 +41,7 @@ This guide helps prospective contributors understand why and how to join E4S, wh
 | 5. Validate using E4S CI | Work with the E4S CI team to test your package within the E4S build pipeline and verify that it can be included in E4S releases. |
 | 6. Submit inclusion request | Open a pull request to the E4S release repository referencing your validated Spack package, license, and build status. |
 | 7. Review and acceptance | The E4S technical team will review your submission for readiness, reproducibility, and alignment with E4S goals. |
-| 8. Integration and announcement | Once accepted, your product is added to the next E4S release and listed on the E4S website and documentation portal. |
+| 8. Integration and announcement | Once accepted, your product is added to the next E4S release and listed on the E4S website and product catalog. |
 
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: "E4S DocPortal"
+title: "E4S Product Catalog"
 layout: single
 classes: wide
-permalink: /use-docportal/
+permalink: /product-catalog/
 ---
 
-The E4S Product Documentation Portal (DocPortal) provides a convenient searchable and sortable table that provides per-product information for all primary E4S products.
+The E4S Product Catalog provides a convenient searchable and sortable table that provides per-product information for all primary E4S products.
 
 
-<div id="docportal-app" class="mm-docportal">
+<div id="product-catalog-app" class="mm-product-catalog">
   <div class="controls">
     <label>
       🔎 Search
@@ -50,14 +50,14 @@ The E4S Product Documentation Portal (DocPortal) provides a convenient searchabl
 </div>
 
 <style>
-.mm-docportal .controls {
+.mm-product-catalog .controls {
   display: grid; gap: .75rem; grid-template-columns: 1fr 220px; margin-bottom: 1rem;
 }
-.mm-docportal .controls label { display:flex; gap:.5rem; align-items:center; }
-.mm-docportal #searchInput, .mm-docportal #areaFilter {
+.mm-product-catalog .controls label { display:flex; gap:.5rem; align-items:center; }
+.mm-product-catalog #searchInput, .mm-product-catalog #areaFilter {
   width: 100%; padding: .5rem .6rem; border: 1px solid var(--mm-border,#e6e6e6); border-radius: .35rem;
 }
-.mm-docportal .table-wrap { overflow-x:auto; }
+.mm-product-catalog .table-wrap { overflow-x:auto; }
 #docTable { width:100%; border-collapse: collapse; }
 #docTable th, #docTable td { padding: .6rem .5rem; border-bottom: 1px solid var(--mm-border,#eee); vertical-align: top; }
 #docTable th.sortable { cursor: pointer; user-select: none; }
@@ -74,12 +74,12 @@ dialog#detailsModal article { padding: 0; }
 dialog#detailsModal header { padding: .85rem 1rem; border-bottom: 1px solid #eee; display:flex; align-items:center; justify-content: space-between; }
 dialog#detailsModal .modal-body { padding: 1rem; max-height: 70vh; overflow:auto; }
 dialog#detailsModal #closeModal { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; }
-.mm-docportal .badge { display:inline-block; padding:.2rem .45rem; border-radius: .35rem; background:#f3f4f6; font-size:.75rem; margin-right:.25rem; }
+.mm-product-catalog .badge { display:inline-block; padding:.2rem .45rem; border-radius: .35rem; background:#f3f4f6; font-size:.75rem; margin-right:.25rem; }
 </style>
 
 <script>
 // 1) Pull data from Jekyll _data
-const RAW_DATA = {% assign items = site.data.docportal.data | default: site.data.docportal | default: empty %}
+const RAW_DATA = {% assign items = site.data.product-catalog.data | default: site.data.product-catalog | default: empty %}
 {% if items and items.first and items.first.name %}
 {{ items | jsonify }}
 {% else %}

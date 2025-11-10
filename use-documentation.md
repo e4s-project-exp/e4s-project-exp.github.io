@@ -1,18 +1,18 @@
 ---
 layout: single
 title: "Documentation Resources"
-permalink: /use-documentation/
+permalink: /documentation/
 classes: wide
 sidebar:
   nav: "usemenu"
 ---
 
 
-### E4S Products Documentation Portal
+### E4S Products Documentation
 
-The E4S "DocPortal" provides a navigable, interactive portal to product documentation.  The portal provides a searchable and sortable table of all primary E4S products.  The table contains information about each product, what [product family](/product-families/) it belongs to, timestamps on documentation updates, a brief summary of each product and a link to the product website.
+The E4S Product Catalog provides a navigable, interactive portal to product documentation.  The portal provides a searchable and sortable table of all primary E4S products.  The table contains information about each product, what [product family](/product-families/) it belongs to, timestamps on documentation updates, a brief summary of each product and a link to the product website.
 
-{% include e4s-portal-button.html %}
+{% include e4s-product-catalog-button.html %}
 
 ### E4S Version 25.06 Resources
 

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "E4S Community Policies"
-permalink: /join-policies/
+permalink: /policies/
 classes: wide
 sidebar:
   nav: "joinmenu"
@@ -23,7 +23,7 @@ The policies below are criteria for E4S membership. To qualify for E4S membershi
 
 **P4** *Documentation* Each E4S member package should have sufficient documentation to support installation and use.
 
-**P5** *Product Metadata* Each team will provide product information via metadata in the [E4S DocPortal](https://e4s-project.github.io/DocPortal.html) format.
+**P5** *Product Metadata* Each team will provide product information via metadata in the [E4S Product Catalog](/product-catalog/) format.
 
 **P6** *Public Repository* Each package will have a public repository (e.g., GitHub or Bitbucket).
 

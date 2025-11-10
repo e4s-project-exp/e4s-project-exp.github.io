@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "E4S Development Process"
-permalink: /join-development-process/
+permalink: /development-process/
 classes: wide
 sidebar:
   nav: "joinmenu"
@@ -23,7 +23,7 @@ E4S provides two major releases each year, labeled as **E4S XX.YY**, where **XX*
 | Spack package development | E4S teams assist product developers in creating and refining their Spack recipes. This ensures each product can be built reproducibly across target systems and architectures. |
 | Build and dependency validation | Each new product undergoes dependency analysis and compatibility checks within the Spack environment to confirm interoperability with other E4S components. |
 | Initial testing on E4S CI systems | Candidate products are tested using E4S continuous integration pipelines to confirm successful builds on common platforms before being promoted to pre-release builds. |
-| Documentation and metadata integration | Contributors are guided to provide clear documentation, metadata, and versioning information, allowing seamless integration into the E4S documentation portal and build infrastructure. |
+| Documentation and metadata integration | Contributors are guided to provide clear documentation, metadata, and versioning information, allowing seamless integration into the E4S product catalog and build infrastructure. |
 
 ---
 

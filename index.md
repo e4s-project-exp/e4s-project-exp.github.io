@@ -132,6 +132,45 @@ Supported by the **U.S. Department of Energy (DOE)** and its partners, E4S accel
   box-shadow: none !important;
   backface-visibility: visible !important;
 }
+/* Second feature row styling */
+.feature-row-botcatalog {
+  margin-top: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.static-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  text-align: center;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.static-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.12);
+}
+
+.static-card svg {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+  stroke: #0092CA;
+  stroke-width: 1.8;
+  fill: none;
+}
+
+.static-card h3 {
+  color: #0092CA;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.static-card p {
+  font-size: 0.95rem;
+  color: #444;
+}
 </style>
 
 <div class="feature-grid">
@@ -195,6 +234,35 @@ Supported by the **U.S. Department of Energy (DOE)** and its partners, E4S accel
     </div>
   </div>
 </div>
+
+</div>
+
+<!-- SECOND FEATURE ROW: Bot and Buttons -->
+<div class="feature-grid feature-row-botcatalog">
+
+  <!-- Left: E4S Bot -->
+  <div class="feature-item static-card">
+    <div class="card-front">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7l-4 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>
+      <h3>Chat with the E4S Bot</h3>
+      <p>Ask questions, explore tools, or get recommendations from the E4S Guide Bot.</p>
+      <div style="margin-top: 1rem;">
+        {% include e4s-bot-button.html %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Right: E4S Doc catalog -->
+  <div class="feature-item static-card">
+    <div class="card-front">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h14a2 2 0 0 1 2 2v14l-4-2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>
+      <h3>Visit the E4S Product Catalog</h3>
+      <p>Browse member products, product families, with extensive links, via the E4S Product Catalog</p>
+      <div style="margin-top: 1rem;">
+        {% include e4s-product-catalog-button.html %}
+      </div>
+    </div>
+  </div>
 
 </div>
 
@@ -267,12 +335,5 @@ setTimeout(sizeCards, 300);
     <strong style="font-size: 1.5em;">Trusted by the HPC-AI Community</strong>
 </p>
 E4S is developed and supported by contributors from U.S. national laboratories, universities, and industry partners. It is available as both open-source and commercial distributions such as [ParaTools Pro for E4S™](https://paratoolspro.com).
-
----
-
-<p style="text-align:center;">
-    <strong>Ask me anything:</strong>
-</p>
-{% include e4s-bot-button.html %}
 
 {% include e4s-footer.html %}
