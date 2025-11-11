@@ -3,6 +3,8 @@ title: "E4S Product Catalog"
 layout: single
 classes: wide
 permalink: /product-catalog/
+sidebar:
+  nav: "usemenu"
 ---
 
 The E4S Product Catalog provides a convenient searchable and sortable table that provides per-product information for all primary E4S products.
