@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Use E4S Products"
-permalink: /get/
+permalink: /oldget/
 classes: wide
 ---
 

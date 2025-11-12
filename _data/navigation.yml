@@ -35,6 +35,23 @@ usemenu:
         url: /container-launch/
       - title: "Test with E4S"
         url: /test-with-e4s/
+      - title: "ParaTools Pro for E4S™"
+        url: https://www.paratoolspro.com
+
+# -------------------------
+# Sidebar: Use E4S Section
+# -------------------------
+getmenu:
+  - title: "Get E4S"
+    children:
+      - title: "Overview"
+        url: /get/
+      - title: "E4S Spack Caches"
+        url: /e4s-buildcache/
+      - title: "E4S Container Download"
+        url: /container-download/
+      - title: "ParaTools Pro for E4S™"
+        url: https://www.paratoolspro.com
 
 # -------------------------
 # Sidebar: Join E4S Section

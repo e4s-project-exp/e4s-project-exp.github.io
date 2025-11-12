@@ -13,6 +13,9 @@ header:
     - label: "News & Events"
       url: "/news/"
       class: "btn--oval-blue"
+    - label: "Get E4S"
+      url: "/get/"
+      class: "btn--oval-blue"
 permalink: "/"
 ---
 
@@ -353,4 +356,4 @@ setTimeout(sizeCards, 300);
 <p style="text-align:center;">
     <strong style="font-size: 1.5em;">Trusted by the HPC-AI Community</strong>
 </p>
-E4S is developed and supported by contributors from U.S. national laboratories, universities, and industry partners. It is available as both open-source and commercial distributions such as [ParaTools Pro for E4S™](https://paratoolspro.com).
+E4S is developed and supported by contributors from U.S. national laboratories, universities, and industry partners. It is available as both open-source and commercial distributions such as [ParaTools Pro for E4S™](https://paratoolspro.com) for commercial cloud platforms such as AWS, Azure, GCP, OCI, and IBM Cloud.
