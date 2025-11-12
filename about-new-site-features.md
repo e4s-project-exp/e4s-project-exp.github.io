@@ -93,7 +93,3 @@ The new site makes it easier to connect with the E4S community:
 
 The redesigned E4S site establishes a foundation for **continuous ecosystem evolution**—where documentation, guidance, and community engagement evolve alongside the software.  
 Future plans include tighter integration between the Guide Bot and the E4S documentation repositories, interactive attribute-driven product filtering, and expanded support for AI-enabled scientific workflows.
-
----
-
-© 2025 E4S Project, a Series of LF Projects, LLC. Supported by the U.S. Department of Energy, Office of Advanced Scientific Computing Research.
