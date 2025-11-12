@@ -77,7 +77,7 @@ The new site makes it easier to connect with the E4S community:
 
 ## Summary of Key Differences from the Original Site
 
-| Area | Previous Site (e4s.io) | New Site |
+| Area | Previous Site | New Site |
 |------|------------------------|-----------|
 | Audience | Primarily experienced E4S developers and facility users | Broader inclusion of new and prospective users |
 | Navigation | Flat menus and static product lists | Hierarchical guides by product family and attributes |
