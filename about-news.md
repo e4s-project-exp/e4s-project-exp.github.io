@@ -41,5 +41,3 @@ sidebar:
 | November 19, 2019 | [E4S BoF at SC19](https://sc19.supercomputing.org/session/?sess=sess269) | Denver, CO |
 | September 23, 2019 | [First E4S Forum Workshop at IEEE Cluster 2019](https://oaciss.uoregon.edu/E4S-Forum19) | Albuquerque, NM |
 | July 10–11, 2019 | [First workshop on NSF and DOE High Performance Computing Tools](https://oaciss.uoregon.edu/NSFDOE19) | Eugene, OR |
-
-{% include e4s-footer.html %}
