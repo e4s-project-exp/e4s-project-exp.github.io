@@ -100,5 +100,3 @@ Information is based on the E4S 25.06 release materials.
 ---
 
 *For more information, visit [https://e4s.io](https://e4s.io) or contact the E4S coordination team through the site’s community channels.*
-
-{% include e4s-footer.html %}

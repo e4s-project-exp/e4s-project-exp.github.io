@@ -43,5 +43,3 @@ E4S is continuously improved by experts and used in leading scientific projects 
 If you’re new to scientific computing, E4S makes it possible to focus more on the science problem you are solving rather than on wrestling with complicated software setups. For decision-makers, E4S represents an investment in scientific productivity, reliability, and innovation that improves the interactions, quality, and impact of the individual libraries and tools that are part of E4S.
 
 By lowering barriers to using advanced computing, E4S helps accelerate discoveries that benefit society.
-
-{% include e4s-footer.html %}

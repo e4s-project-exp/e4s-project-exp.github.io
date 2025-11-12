@@ -72,5 +72,3 @@ This guide helps prospective contributors understand why and how to join E4S, wh
 ---
 
 E4S thrives on community participation. If your product supports scientific computing, HPC, or AI workflows and aligns with open-source values, joining E4S is a meaningful way to extend its impact and ensure it remains part of a sustainable ecosystem for science.
-
-{% include e4s-footer.html %}

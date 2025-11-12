@@ -20,5 +20,3 @@ The source code is available at the [E4S-CL GitHub repository](https://github.co
 ### E4S-CL demo video:
 
 [YouTube demo video](https://www.youtube.com/embed/6eZflZpHldk)
-
-{% include e4s-footer.html %}

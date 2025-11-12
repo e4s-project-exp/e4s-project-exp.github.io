@@ -108,5 +108,3 @@ When selecting a math library from the E4S ecosystem, users should consider thei
 | Uncertainty quantification | Integration with UQ frameworks or polynomial chaos. |
 | Surrogate modeling | Use of reduced-order or data-driven surrogate models. |
 | Multi-physics coupling | Ability to link to external solvers for coupled systems. |
-
-{% include e4s-footer.html %}

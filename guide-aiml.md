@@ -103,5 +103,3 @@ The following tables outline attributes that can help a newcomer — or an autom
 | Data streaming | Support for continuous data ingestion and inference pipelines. |
 | Connectivity requirements | Handling of intermittent network connections or federated learning setups. |
 | Security and privacy | Support for encrypted models, federated updates, or privacy-preserving training. |
-
-{% include e4s-footer.html %}

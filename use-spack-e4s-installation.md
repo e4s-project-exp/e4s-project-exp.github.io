@@ -52,6 +52,3 @@ Please contact Sameer Shende at sameer [at] cs.uoregon.edu if you have any quest
 - [E4S Model Environment Repository](https://github.com/E4S-Project/e4s)
 - [E4S 25.06 Model Environments](https://github.com/E4S-Project/e4s/tree/master/environments/25.06)
 - [E4S Homepage](https://e4s.io)
-
-
-{% include e4s-footer.html %}

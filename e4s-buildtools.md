@@ -72,5 +72,3 @@ These tools complement the build and package management workflow by providing in
 ## Summary
 
 The E4S build ecosystem provides an integrated set of tools that automate the construction, management, and distribution of complex scientific software stacks. At its core, Spack drives reproducible builds across diverse architectures, while auxiliary tools such as CMake, BuildCache, ReFrame, and containerization technologies ensure that the resulting software is portable, tested, and ready for use at scale. Together, these tools form the backbone of a sustainable, interoperable, and high-performance software ecosystem that supports the scientific computing community.
-
-{% include e4s-footer.html %}

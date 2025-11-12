@@ -37,5 +37,3 @@ The E4S Product Catalog provides a navigable, interactive portal to product docu
 [Prebuilt binaries used in E4S images are stored in the E4S Build Cache](https://oaciss.uoregon.edu/e4s/inventory.html)
 
 [E4S Container Launch Tool, to facilitate the use of system MPI from within containers](e4s-cl.html)
-
-{% include e4s-footer.html %}

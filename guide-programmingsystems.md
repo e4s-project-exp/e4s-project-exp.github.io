@@ -88,5 +88,3 @@ To help newcomers navigate these choices, the following sections define attribut
 | Language interoperability | Ease of calling C/C++ libraries from Fortran or vice versa. |
 | Toolchain integration | Integration with LLVM-based analysis, debugging, and profiling tools. |
 | Vendor backend support | Availability of target backends (NVIDIA, AMD, Intel, ARM) through the compiler toolchain. |
-
-{% include e4s-footer.html %}

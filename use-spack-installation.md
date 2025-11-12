@@ -291,5 +291,3 @@ spack load <name>
 ## Conclusion
 
 Spack makes it easy to discover, configure, and install complex scientific software stacks. By understanding how to search for packages, inspect build options, control compilers and dependencies, and manage environments, you can consistently build powerful and reproducible software configurations.
-
-{% include e4s-footer.html %}

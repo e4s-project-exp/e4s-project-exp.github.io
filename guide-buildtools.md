@@ -102,5 +102,3 @@ The tables below provide attributes that can help a newcomer or an automated ass
 | Security and Verification | Availability of checksums, cryptographic signing, or provenance metadata. |
 | Policy Compliance | Support for site-specific build policies and reproducibility requirements. |
 | Lifecycle Management | Tools or hooks for maintaining, upgrading, and deprecating software builds. |
-
-{% include e4s-footer.html %}

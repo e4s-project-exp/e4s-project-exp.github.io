@@ -16,5 +16,3 @@ E4S offers multiple methods for deploying its collection of HPC and AI software 
 | Containers | E4S offers containerized versions of its software stack, compatible with Docker, Singularity, Shifter, and CharlieCloud. See the [Container Download Page](/container-download/) for available containers. See side menu for additional container information. |
 | Commercial Cloud Options |E4S containers are  available via [ParaTools Pro for E4S™](https://paratoolspro.com), including [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-ozpychswxmldi). E4S can be deployed on Amazon Web Services (AWS) for scalable cloud-based HPC/AI workloads and Google Cloud Platform (GCP) with access to high-performance VMs and storage. |
 | Test using E4S | E4S can be used for upstream or downstream testing of your own software products. For example, if you produce compilers or tools for HPC-AI users, E4S can be a reasonable proxy for the HPC-AI user community.  See [Test with E4S](/test-with-e4s/) for more details.|
-
-{% include e4s-footer.html %}

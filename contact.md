@@ -16,5 +16,3 @@ For questions and support, you may contact us in the following ways.
 | [E4S Product Catalog](/product-catalog/) | Contact and support information for each product |
 | [Michael Heroux](mailto:mheroux@acm.org) | E4S Project Lead, General questions about E4S |
 | [Sameer Shende](mailto:sameer@cs.uoregon.edu) |E4S Technical Lead, Technical questions about E4S |
-
-{% include e4s-footer.html %}

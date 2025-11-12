@@ -25,5 +25,3 @@ E4S provides modest but diverse testing resources that are available to E4S prod
 General questions about E4S can be directed to the E4S Project Lead, Michael Heroux, <mheroux@acm.org>
 
 Technical questions about E4S can be directed to the E4S Technical Lead, Sameer Shende, <sameer@cs.uoregon.edu>
-
-{% include e4s-footer.html %}

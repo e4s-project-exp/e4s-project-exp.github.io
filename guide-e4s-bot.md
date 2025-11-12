@@ -58,5 +58,3 @@ The "Software Ecosystem for Science Guide" (E4S Guide Bot) is a GPT generated fr
 - [Math Libraries Prompt Guide](/guide-mathlibs/)
 - [Data and Visualization Libraries and Tools Prompt Guide](/guide-davlibstools/)
 - [AI & ML Libraries and Tools Prompt Guide](/guide-aimlibstools/)
-
-{% include e4s-footer.html %}

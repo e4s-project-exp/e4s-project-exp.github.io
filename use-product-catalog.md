@@ -249,5 +249,3 @@ function openDetails(row){
 // Initial paint
 render();
 </script>
-
-{% include e4s-footer.html %}

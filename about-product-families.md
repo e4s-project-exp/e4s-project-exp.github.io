@@ -36,5 +36,3 @@ Key features of this curation include:
 - **Interoperability coordination**: E4S works with [product family](/product-families/) teams to promote cross-library interface standards, common policies, and cooperative evolution across domains.  
 
 In effect, E4S acts as a stabilizing backbone: by continuously validating and pruning the large combination of library interactions, it enables application teams to adopt cutting-edge capabilities across multiple domains (e.g. new solver algorithms, new profiling tools, AI modules) without having to individually integrate and test every possible combination themselves.
-
-{% include e4s-footer.html %}

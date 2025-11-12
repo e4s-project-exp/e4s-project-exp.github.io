@@ -68,5 +68,3 @@ bash
 ```
 
 Please contact Sameer Shende at sameer [at] cs.uoregon.edu if you have any questions.
-
-{% include e4s-footer.html %}

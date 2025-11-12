@@ -77,5 +77,3 @@ Hardware vendors provide optimized I/O, data management, and visualization tools
 ## Summary
 
 E4S integrates a diverse and powerful collection of data and visualization libraries that work across system architectures and scales. Together, these tools support the entire data lifecycle—from acquisition and storage to interactive analysis and visual exploration. By leveraging E4S, developers and researchers can focus on their science while relying on a well-supported, interoperable ecosystem of tools optimized for modern supercomputers.
-
-{% include e4s-footer.html %}

@@ -83,4 +83,3 @@ The E4S performance tools ecosystem offers a unified, interoperable suite for co
 
 These tools help ensure that scientific and AI workloads can run efficiently on the most advanced supercomputers in the world, including Frontier, Aurora, El Capitan, and future exascale-class systems.
 
-{% include e4s-footer.html %}

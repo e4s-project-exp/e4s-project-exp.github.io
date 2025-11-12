@@ -63,5 +63,3 @@ The E4S community provides multiple ways for developers, users, and contributors
 ## Summary
 
 E4S welcomes participation from the broader community of software developers, facility staff, and users of scientific software. Whether through Slack conversations, GitHub Discussions, or issue submissions, every contribution strengthens the ecosystem and supports the mission of open, collaborative, high-performance computing for science.
-
-{% include e4s-footer.html %}

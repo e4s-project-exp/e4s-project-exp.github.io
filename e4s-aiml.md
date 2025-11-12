@@ -70,5 +70,3 @@ E4S thus bridges the growing intersection between traditional simulation-based c
 ## Summary
 
 E4S’s integration of AI/ML tools complements its strong foundation in numerical, performance, and I/O libraries. By combining domain-tested HPC libraries with industry-standard and emerging AI frameworks, E4S enables the next generation of hybrid simulation–AI workflows that are portable, scalable, and sustainable across future exascale and AI-accelerated systems.
-
-{% include e4s-footer.html %}

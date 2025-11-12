@@ -262,6 +262,3 @@ Use environments, lockfiles (`spack.lock`), and `spack install -b only`. Pin com
 - Add the **E4S mirror**, **trust keys**, and **install with `-b auto`** for a smooth experience.
 - For strict reproducibility, **use environments** and **`-b only`**.
 - Match **OS/arch/compiler/SDK** to maximize binary reuse and avoid rebuilding from source.
-
-
-{% include e4s-footer.html %}

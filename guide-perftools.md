@@ -79,5 +79,3 @@ The following attributes help guide this selection process by describing charact
 | Driver-Level Analysis | Ability to inspect driver or kernel-level events for performance tuning |
 | IDE or GUI Availability | Whether the vendor tool includes a visual interface for analysis |
 | Multi-Vendor Support | Whether the tool supports analysis across different vendor devices in the same job |
-
-{% include e4s-footer.html %}

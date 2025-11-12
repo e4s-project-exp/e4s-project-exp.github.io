@@ -123,5 +123,3 @@ These attributes can then be described in a structured form that allows a chatbo
 | Remote visualization | Ability to interact with large data sets remotely via client-server models |
 | VR/AR readiness | Compatibility with immersive visualization systems |
 | Web interface | Support for web-based exploration using WebGL or similar technologies |
-
-{% include e4s-footer.html %}

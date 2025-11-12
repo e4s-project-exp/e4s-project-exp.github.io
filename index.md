@@ -9,6 +9,10 @@ header:
 #  overlay_filter: "0.60"
   overlay_filter: rgba(0, 146, 202, 0.75) # Same color as "air" skin footer
   overlay_image: /assets/images/e4s-logo.jpg
+  actions:
+    - label: "News & Events"
+      url: "/news/"
+      class: "btn--oval-blue"
 permalink: "/"
 ---
 
@@ -17,6 +21,21 @@ Welcome to **E4S**, the *Ecosystem for Scientific Software* — an open-source, 
 Supported by the **U.S. Department of Energy (DOE)** and its partners, E4S accelerates scientific innovation on systems ranging from laptops to exascale supercomputers.
 
 <style>
+.btn--oval-blue {
+  display: inline-block;
+  background-color: #0092CA;
+  color: white !important;
+  padding: 0.6em 1.5em;
+  border-radius: 999px; /* makes it oval */
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn--oval-blue:hover {
+  background-color: #0078a8;
+  transform: translateY(-2px);
+}
+
 .feature-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -335,5 +354,3 @@ setTimeout(sizeCards, 300);
     <strong style="font-size: 1.5em;">Trusted by the HPC-AI Community</strong>
 </p>
 E4S is developed and supported by contributors from U.S. national laboratories, universities, and industry partners. It is available as both open-source and commercial distributions such as [ParaTools Pro for E4S™](https://paratoolspro.com).
-
-{% include e4s-footer.html %}
