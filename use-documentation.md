@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "Documentation Resources"
+redirect_from:
+  - /documentation.html
 permalink: /documentation/
 classes: wide
 sidebar:
