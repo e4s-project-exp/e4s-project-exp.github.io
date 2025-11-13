@@ -41,3 +41,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # db CVEs with some frequency, so avoid problems we don't need
 # It seems that jekyll-link-attributes requires this, but the dependency is wonky
 # gem "nokogiri"
+gem "jekyll-redirect-from"

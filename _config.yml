@@ -55,3 +55,6 @@ og_image: /assets/images/E4S-no-background.png
 # Generate a sitemap.xml
 plugins:
  - jekyll-sitemap
+
+plugins:
+  - jekyll-redirect-from

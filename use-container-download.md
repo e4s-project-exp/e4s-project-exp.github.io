@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "E4S Container Download"
+redirect_from:
+  - /download.html
 permalink: /container-download/
 classes: wide
 sidebar:

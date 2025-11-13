@@ -1,5 +1,7 @@
 ---
 title: "E4S Product Catalog"
+redirect_from:
+  - /DocPortal.html
 layout: single
 classes: wide
 permalink: /product-catalog/
